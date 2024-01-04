@@ -4,7 +4,7 @@
         "port": 3306,
         "user": "nubiaurrea5990",
         "password": "D8G$b&gCfo#5CMTt",
-        "database": "bbdd_groupcos_repositorio_movistar_mexico"
+        "database": "bbdd_groupcos_repositorio_claro_cobranza"
     },
     "credenciales_bot_tlgrm":{
         "accesos":["6632174170:AAEIwmjboyA9-9KYJk9cZ2BAlBQfPpWr_mk","-1001989930988"]

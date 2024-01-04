@@ -1,31 +1,224 @@
 {
-    "ejecuciones":{
-        "archivo1":{
-            "varibles":[["Pagos_B2b24_mx"],"pagos_b2b24_mx","//root//PROCESOS//COMPARTIDA_COS_L//OPERACIONES//Movistar Cartera  Mexico//Backoffice//00.Insumos//01.Pago"],
-            "sheets":["None"],
-            "opcion_path":["4",";","1"],
-            "opcion_cargue_tabla":1,
-            "asignacion":0,
-            "fechas":["FECHA_PAGO"],
-            "formatos":["CLIENTE"]
-        },
-        "archivo2":{
-            "varibles":[["PAGOS"],"pagos","/root/PROCESOS/COMPARTIDA_COS_L/OPERACIONES/Movistar Cartera  Mexico/Backoffice/00.Insumos/01.Pago"],
-            "sheets":["None"],
-            "opcion_path":["4",";","0"],
-            "opcion_cargue_tabla":1,
-            "asignacion":0,
-            "fechas":["ENTRY_DATE","PAYMENT_DATE"],
-            "formatos":{"column1":[""]}
-        },
-        "archivo3":{
-            "varibles":[["ENERO", "FEBRERO", "MARZO", "ABRIL", "MAYO", "JUNIO", "JULIO", "AGOSTO", "SEPTIEMBRE", "OCTUBRE", "NOVIEMBRE", "DICIEMBRE"],"b2c","/root/PROCESOS/COMPARTIDA_COS_L/OPERACIONES/Movistar Cartera  Mexico/Backoffice/00.Insumos/05.Asignación"],
-            "sheets":["DIGITAL", "INTERNA", "TRADICIONAL", "CHURN", "B2B"],
-            "opcion_path":["3",";","0"],
-            "opcion_cargue_tabla":1,
-            "asignacion":1,
-            "fechas":["ACTIVE_DATE","INICIO_ESTADIA","FIN_ESTADIA","POSIBLE_BAJA", "A"],
-            "formatos":{"column1":[""]}
-        }
-    }
+"ejecuciones":{
+  "archivo1":{
+   "varibles":[["Salida_Movil"],"salida_movil","//root//PROCESOS//ASIGNACIONES//CompartidasCOS//REPORTING//24_Procesos_GroupCOS//118.Claro_Cobranza//claro_cobranza_colombia_b2c//bases_operacion//3.no_gestion//1.salida_movil"],
+   "sheets":["None"],
+   "opcion_path":["2","|"],
+   "opcion_cargue_tabla":1,
+   "asignacion":0,
+   "columnas":["CUENTA", "SALDO"],
+   "fechas":[],
+   "formatos":["CUENTA"],
+   "columnas_sin_espacio" : []
+  },
+ "archivo2":{
+   "varibles":[["Salida_Fija"],"salida_fija","//root//PROCESOS//ASIGNACIONES//CompartidasCOS//REPORTING//24_Procesos_GroupCOS//118.Claro_Cobranza//claro_cobranza_colombia_b2c//bases_operacion//3.no_gestion//2.salida_fija"],
+   "sheets":["None"],
+   "opcion_path":["2"," "],
+   "opcion_cargue_tabla":1,
+   "asignacion":0,
+   "columnas":["CUENTA", "SALDO"],
+   "fechas":[],
+   "formatos":[],
+   "columnas_sin_espacio" : []
+  },
+ "archivo3":{
+  "varibles":[["REPORTE_PAGO_PARCIAL"],"reporte_pago_parcial","//root//PROCESOS//ASIGNACIONES//CompartidasCOS//REPORTING//24_Procesos_GroupCOS//118.Claro_Cobranza//claro_cobranza_colombia_b2c//bases_operacion//3.no_gestion//3.ascard"],
+  "sheets":["None"],
+  "opcion_path":["2",";"],
+  "opcion_cargue_tabla":1,
+  "asignacion":0,
+  "columnas":["CUENTA", "SALDO"],
+  "fechas":[],
+  "formatos":["CUENTA"],
+  "columnas_sin_espacio" : []
+  },
+ "archivo4":{
+  "varibles":[["REPORTE_PAGO_CONSOLIDADO"],"reporte_pago_consolidado","//root//PROCESOS//ASIGNACIONES//CompartidasCOS//REPORTING//24_Procesos_GroupCOS//118.Claro_Cobranza//claro_cobranza_colombia_b2c//bases_operacion//3.no_gestion//3.ascard"],
+  "sheets":["None"],
+  "opcion_path":["2",";"],
+  "opcion_cargue_tabla":1,
+  "asignacion":0,
+  "columnas":["CUENTA"],
+  "fechas":[],
+  "formatos":["CUENTA"],
+  "columnas_sin_espacio" : []
+  },
+ "archivo5":{
+  "varibles":[["No_Gestión_Prepo"],"no_gestion_prepo","//root//PROCESOS//ASIGNACIONES//CompartidasCOS//REPORTING//24_Procesos_GroupCOS//118.Claro_Cobranza//claro_cobranza_colombia_b2c//bases_operacion//3.no_gestion//4.no_gestion_adicional"],
+  "sheets":["None"],
+  "opcion_path":["2",";"],
+  "opcion_cargue_tabla":1,
+  "asignacion":0,
+  "columnas":["CUENTA"],
+  "fechas":[],
+  "formatos":["CUENTA"],
+  "columnas_sin_espacio" : []
+  },
+ "archivo6":{
+  "varibles":[["Exclusion_Gestion_Cuentas"],"exclusion_gestion_cuentas","//root//PROCESOS//ASIGNACIONES//CompartidasCOS//REPORTING//24_Procesos_GroupCOS//118.Claro_Cobranza//claro_cobranza_colombia_b2c//bases_operacion//4.exclusiones"],
+  "sheets":["TELEFONOS", "CORREOS", "CEDULA", "CUENTAS"],
+  "opcion_path":["4",";"],
+  "opcion_cargue_tabla":0,
+  "asignacion":0,
+  "columnas":[],
+  "fechas":["FECHA"],
+  "formatos":["LINEA","CEDULA","CUENTA"],
+  "columnas_sin_espacio" : ["CORREOS"]
+  },
+ "archivo7":{
+  "varibles":[["Exclusiones Descuentos"],"exclusion_descuentos_movil","//root//PROCESOS//ASIGNACIONES//CompartidasCOS//REPORTING//24_Procesos_GroupCOS//118.Claro_Cobranza//claro_cobranza_colombia_b2c//bases_operacion//5.exclusiones_descuentos//1.movil"],
+  "sheets":["PARTE 1", "PARTE 2"],
+  "opcion_path":["2",";"],
+  "opcion_cargue_tabla":1,
+  "asignacion":0,
+  "columnas":[],
+  "fechas":[],
+  "formatos":["CUENTA"],
+  "columnas_sin_espacio" : ["CUENTA", "CUSTOMER_ID"]
+  },
+ "archivo8":{
+  "varibles":[["Exclusiones descuentos FIJO"],"exclusiones_descuentos_fijo","//root//PROCESOS//ASIGNACIONES//CompartidasCOS//REPORTING//24_Procesos_GroupCOS//118.Claro_Cobranza//claro_cobranza_colombia_b2c//bases_operacion//5.exclusiones_descuentos//2.fija"],
+  "sheets":["None"],
+  "opcion_path":["2",";"],
+  "opcion_cargue_tabla":1,
+  "asignacion":0,
+  "columnas":[],
+  "fechas":[],
+  "formatos":["CUENTA"],
+  "columnas_sin_espacio" : []
+  },
+ "archivo9":{
+  "varibles":[["Exclusiones descuentos ASCARD"],"exclusiones_descuentos_ascard","//root//PROCESOS//ASIGNACIONES//CompartidasCOS//REPORTING//24_Procesos_GroupCOS//118.Claro_Cobranza//claro_cobranza_colombia_b2c//bases_operacion//5.exclusiones_descuentos//3.ascard"],
+  "sheets":["None"],
+  "opcion_path":["2",";"],
+  "opcion_cargue_tabla":1,
+  "asignacion":0,
+  "columnas":[],
+  "fechas":[],
+  "formatos":["No. Credito / Cuenta"],
+  "columnas_sin_espacio" : []
+  },
+ "archivo10":{
+  "varibles":[["PyR_CONTACTO SOLUTIONS LTDA"],"pyr_contacto_solutions_ltda_movil","//root//PROCESOS//ASIGNACIONES//CompartidasCOS//REPORTING//24_Procesos_GroupCOS//118.Claro_Cobranza//claro_cobranza_colombia_b2c//bases_operacion//6.pagos//1.movil"],
+  "sheets":["PAGOS", "AJUSTES"],
+  "opcion_path":["2",";"],
+  "opcion_cargue_tabla":0,
+  "asignacion":0,
+  "columnas":[],
+  "fechas":["FECHA"],
+  "formatos":["CUSTCODE", "CUSTOMER_ID"],
+  "columnas_sin_espacio" : []
+  },
+ "archivo11":{
+  "varibles":[["PyR_CONTACTO SOLUTIONS LTDA"],"pyr_contacto_solutions_ltda_ascard","//root//PROCESOS//ASIGNACIONES//CompartidasCOS//REPORTING//24_Procesos_GroupCOS//118.Claro_Cobranza//claro_cobranza_colombia_b2c//bases_operacion//6.pagos//4.ascard"],
+  "sheets":["PAGOS", "AJUSTES"],
+  "opcion_path":["2",";"],
+  "opcion_cargue_tabla":0,
+  "asignacion":0,
+  "columnas":[],
+  "fechas":["FECHA"],
+  "formatos":["CUSTCODE", "CUSTOMER_ID"],
+  "columnas_sin_espacio" : []
+  },
+ "archivo12":{
+  "varibles":[["PagosRR_Totales_C_SOLUTIONS"],"pagosrr_totales_c_solutions","//root//PROCESOS//ASIGNACIONES//CompartidasCOS//REPORTING//24_Procesos_GroupCOS//118.Claro_Cobranza//claro_cobranza_colombia_b2c//bases_operacion//6.pagos//2.hogar"],
+  "sheets":["None"],
+  "opcion_path":["2","\t"],
+  "opcion_cargue_tabla":1,
+  "asignacion":0,
+  "columnas":["FECHA1", "CUSTCODE", "FECHA2", "FECHA3", "SALDO","ALIADO"],
+  "fechas":["FECHA1", "FECHA2", "FECHA3"],
+  "formatos":[],
+  "columnas_sin_espacio" : []
+  },
+ "archivo13":{
+  "varibles":[["01.Pre_Churn"],"prechurn","//root//PROCESOS//ASIGNACIONES//CompartidasCOS//REPORTING//24_Procesos_GroupCOS//118.Claro_Cobranza//claro_cobranza_colombia_b2c//bases_operacion//8.bases_especiales"],
+  "sheets":["None"],
+  "opcion_path":["2",""],
+  "opcion_cargue_tabla":1,
+  "asignacion":0,
+  "columnas":[],
+  "fechas":["FECHA_DE_PAGO"],
+  "formatos":[],
+  "columnas_sin_espacio" : []
+  },
+ "archivo14":{
+  "varibles":[["Reporte Pagos Lite 5 Días"],"reporte_pagos_lite_5_días","//root//PROCESOS//ASIGNACIONES//CompartidasCOS//REPORTING//24_Procesos_GroupCOS//118.Claro_Cobranza//claro_cobranza_colombia_b2c//bases_operacion//6.pagos//3.gevenue"],
+  "sheets":["None"],
+  "opcion_path":["2",";"],
+  "opcion_cargue_tabla":1,
+  "asignacion":0,
+  "columnas":[],
+  "fechas":["FECHA_DE_CREACION"],
+  "formatos":[],
+  "columnas_sin_espacio" : []
+  },
+ "archivo15":{
+  "varibles":[["02.Churn"],"churn","//root//PROCESOS//ASIGNACIONES//CompartidasCOS//REPORTING//24_Procesos_GroupCOS//118.Claro_Cobranza//claro_cobranza_colombia_b2c//bases_operacion//8.bases_especiales"],
+  "sheets":["None"],
+  "opcion_path":["2",";"],
+  "opcion_cargue_tabla":1,
+  "asignacion":0,
+  "columnas":[],
+  "fechas":["FECHA_DE_CREACION"],
+  "formatos":[],
+  "columnas_sin_espacio" : []
+  },
+ "archivo16":{
+  "varibles":[["03.Pre_Potencial_Ordinario"],"potencial_ordinario","//root//PROCESOS//ASIGNACIONES//CompartidasCOS//REPORTING//24_Procesos_GroupCOS//118.Claro_Cobranza//claro_cobranza_colombia_b2c//bases_operacion//8.bases_especiales"],
+  "sheets":["Prepotencial"],
+  "opcion_path":["2",";"],
+  "opcion_cargue_tabla":1,
+  "asignacion":0,
+  "columnas":[],
+  "fechas":[],
+  "formatos":[],
+  "columnas_sin_espacio" : []
+  },
+ "archivo17":{
+  "varibles":[["04.Pre_Potencial_Especial"],"potencial_especial","//root//PROCESOS//ASIGNACIONES//CompartidasCOS//REPORTING//24_Procesos_GroupCOS//118.Claro_Cobranza//claro_cobranza_colombia_b2c//bases_operacion//8.bases_especiales"],
+  "sheets":["consulta_prepo"],
+  "opcion_path":["2",";"],
+  "opcion_cargue_tabla":1,
+  "asignacion":0,
+  "columnas":[],
+  "fechas":[],
+  "formatos":[],
+  "columnas_sin_espacio" : []
+  },
+ "archivo18":{
+  "varibles":[["matriz_descuento"],"matriz_descuentos","//root//PROCESOS//ASIGNACIONES//CompartidasCOS//REPORTING//24_Procesos_GroupCOS//118.Claro_Cobranza//claro_cobranza_colombia_b2c//bases_operacion//10.descuentos"],
+  "sheets":["None"],
+  "opcion_path":["2",";"],
+  "opcion_cargue_tabla":1,
+  "asignacion":0,
+  "columnas":[],
+  "fechas":["VIGENCIA_DESCUENTO"],
+  "formatos":[],
+  "columnas_sin_espacio" : []
+  },
+  "archivo19":{
+   "varibles":[["FO - CONTACTO SOLUTIONS LTDA"],"fo_contacto_solutions_ltda","//root//PROCESOS//ASIGNACIONES//CompartidasCOS//REPORTING//24_Procesos_GroupCOS//118.Claro_Cobranza//claro_cobranza_colombia_b2c//bases_operacion//6.pagos//5.sga"],
+   "sheets":["None"],
+   "opcion_path":["2","\t"],
+   "opcion_cargue_tabla":1,
+   "asignacion":0,
+   "columnas":["CUENTA", "SEGMENTO", "CASA_DE_COBRO", "PAGO", "FECHA"],
+   "fechas":["FECHA"],
+   "formatos":[],
+   "columnas_sin_espacio" : []
+  },
+  "archivo20":{
+   "varibles":[["castigo"],"castigo","//root//PROCESOS//ASIGNACIONES//CompartidasCOS//REPORTING//24_Procesos_GroupCOS//118.Claro_Cobranza//claro_cobranza_colombia_b2c//bases_operacion//12.servicios"],
+   "sheets":["None"],
+   "opcion_path":["2","\t"],
+   "opcion_cargue_tabla":1,
+   "asignacion":0,
+   "columnas":["NUMERO_CLIENTE","CUENTA","IDENTIFICACION","DEUDA_REAL_GESTIONAR","MONTO_INI_ASIG_CUENTA","MONTO_INICIAL_CLIENTE","MARCA_POTENCIAL","MARCA_PREPOTENCIAL","MARCA_CASTIGO","MARCA_REFINANCIADO","CRM","TIPO","FECHA_ASIGNACION","FECHA_VENCIMIENTO","FECHA_ACT_SALDO","FECHA_ASIG","FACT_AB_MAS_ANT","ID_EJECUCION","AGENCIA","CAMPANA","EDAD_INICIAL","EDAD_DEUDA","EDAD_REVALIDADA","SCORE_CLIENTE","TIPO_CLIENTE","FECHA_ACTUALIZACION"],
+   "fechas":["FECHA_ASIGNACION","FECHA_VENCIMIENTO","FECHA_ASIG","FACT_AB_MAS_ANT","FECHA_ACTUALIZACION"],
+   "formatos":[],
+   "columnas_sin_espacio" : []
+  }
+ }
 }

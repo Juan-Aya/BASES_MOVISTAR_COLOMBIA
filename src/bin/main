@@ -1,0 +1,3 @@
+export HOME_DIR=/root/PROCESOS/BASESCLAROCOBRANZAPRUEBAS
+cd $HOME_DIR/src
+../venv/bin/python main.py
