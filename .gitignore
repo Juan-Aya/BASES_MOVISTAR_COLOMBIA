@@ -3,5 +3,6 @@
 */*/*/__pycache__
 
 venv
+vem
 .git-credentials
 src/config/config_60.json
