@@ -10,7 +10,7 @@ handlers:
   file:
     class: logging.FileHandler
     level: INFO
-    filename: /root/PROCESOS/BASESMOVISTAR/src/execution.log
+    filename: execution.log
     formatter: detail
   console:
     class: logging.StreamHandler

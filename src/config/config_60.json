@@ -2,9 +2,9 @@
     "credenciales_conexion_db":{
         "host": "172.70.7.60",
         "port": 3306,
-        "user": "nubiaurrea5990",
-        "password": "D8G$b&gCfo#5CMTt",
-        "database": "bbdd_groupcos_repositorio_claro_cobranza"
+        "user": "juanaya6582",
+        "password": "1,zcmb0PFpQdK0Z9UJfc",
+        "database": "bbdd_groupcos_repositorio_movistar_colombia"
     },
     "credenciales_bot_tlgrm":{
         "accesos":["6632174170:AAEIwmjboyA9-9KYJk9cZ2BAlBQfPpWr_mk","-1001989930988"]

@@ -24,13 +24,16 @@ for i in range(len(list(archivos))):
     asignacion = coleccion[key1]["asignacion"]
     # Selección de tipo de ruta a leer 
     if  coleccion[key1]["opcion_path"][0].strip("'") == "1":
-        path = f"{path_0}//2023//11//{dia}"
+        path = f"{path_0}\\{anio}\\{mes}\\03" # cambiar los separadores
     elif coleccion[key1]["opcion_path"][0].strip("'") == "2":
-        path = f"{path_0}//2023//11"
+        path = f"{path_0}//{anio}//{mes}"
     elif coleccion[key1]["opcion_path"][0].strip("'") == "3":
-        path = f"{path_0}/2023"
+        path = f"{path_0}//{anio}"
     elif coleccion[key1]["opcion_path"][0].strip("'") == "4":
         path = f"{path_0}"
+    elif coleccion[key1]["opcion_path"][0].strip("'") == "5":
+        path = f"{path_0}\\{anio}\\{mes}\\{ayer}" # cambiar los separadores
+    
         
     # Extracion de dicionarios a leer
     dic_fechas = coleccion[key1]["fechas"]

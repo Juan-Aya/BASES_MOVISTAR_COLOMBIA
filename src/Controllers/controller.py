@@ -13,8 +13,11 @@ from Imports import *
 #-- Función terciaria check_and_add
 #-- Funciónes de tratamiento y cargue la informacion a las tablas: toSqlTxt,toSqlExcel
 #-- Funciónes de tratamiento de datos en columnas: convertir_fecha,insertar_raya_al_piso 
+script_dir = os.path.dirname(os.path.abspath(__file__))
+log_file_path = os.path.join(script_dir, '..', 'log.yml')
+log_file_path1 = os.path.join(script_dir, '..', 'LoadedFiles')
 
-with open("/root/PROCESOS/BASESCLAROCOBRANZAPRUEBAS/src/log.yml") as f:
+with open(log_file_path) as f: #/root/PROCESOS/BASESCLAROCOBRANZAPRUEBAS/src/log.yml
     cnf = yaml.safe_load(f)
     logging.config.dictConfig(cnf)
 
@@ -25,6 +28,8 @@ mes     = datetime.datetime.now().strftime("%m")
 dia     = datetime.datetime.now().strftime("%d")
 hora    = datetime.datetime.now().strftime("%H:%M")
 fecha   = datetime.datetime.now().strftime("%Y-%m-%d")
+ayer    = datetime.datetime.now() - datetime.timedelta(days=1)
+ayer    = ayer.strftime("%d") 
 
 # Función segundaria del archivo
 def Read_files_path(path_,nombre_tabla,nombre_archivo):
@@ -42,7 +47,7 @@ def Read_files_path(path_,nombre_tabla,nombre_archivo):
         print("error")
         logging.getLogger("user").exception(e)
         raise 
-    with open(f"//root//PROCESOS//BASESCLAROCOBRANZAPRUEBAS//src//LoadedFiles//{nombre_tabla}.log", "r") as f:
+    with open(f"{log_file_path1}//{nombre_tabla}.log", "r") as f: # //root//PROCESOS//BASESCLAROCOBRANZAPRUEBAS//src//LoadedFiles//
         loaded_files = f.read().splitlines()  # todo el listado 
         # Obtener la lista de archivos con fechas de modificación
         archivos_con_fecha = [f"{datetime.datetime.fromtimestamp(os.path.getmtime(os.path.join(path_, archivo))).strftime('%Y-%m-%d %H:%M:%S')} - {archivo}" for archivo in archivos_coincidentes]
@@ -71,7 +76,7 @@ def insertar_raya_al_piso(cadena): #Funcion que inserta raya al piso cuando el e
             return cadena
 
 def convertir_fecha(fecha):
-    formatos = ["%Y-%m-%d %I:%M:%S", "%d/%m/%Y %I:%M:%S", "%Y-%m-%d", "%Y/%m/%d", "%d/%m/%Y", "%m-%d-%y", "%d/%m/%Y:%H:%M:%S", "%d-%m-%Y %H:%M:%S", "%d/%m/%Y 0:00:00", "%d/%m/%Y 00:00:00", "%d/%m/%Y %H:%M:%S","%Y-%m-%d %H:%M:%S"]
+    formatos = ["%Y-%m-%d %I:%M:%S", "%d/%m/%Y %I:%M:%S", "%Y-%m-%d", "%Y/%m/%d", "%d/%m/%Y", "%m-%d-%y", "%d/%m/%Y:%H:%M:%S", "%d-%m-%Y %H:%M:%S", "%d/%m/%Y 0:00:00", "%d/%m/%Y 00:00:00", "%d/%m/%Y %H:%M:%S","%Y-%m-%d %H:%M:%S","%d/%m/%Y %I:%M:%S %p"]
 
     for formato in formatos:
         try:
@@ -102,7 +107,7 @@ def toSqlTxt(path,nombre_tabla,file_, dic_fechas, dic_formatos, separador, colum
         df = dd.read_csv(path+"/"+file_[22:],sep = separador,dtype=str, index_col=False)
     else:
         df = dd.read_csv(path+"/"+file_[22:],sep = separador,dtype=str, index_col=False, names=columnas_tabla, encoding='latin-1')
-    print(df)
+    print("dataframe juan: ",df)
     fecha= datetime.datetime.fromtimestamp(os.path.getmtime(os.path.join(path, file_[22:])))
     tabla_reemplazo = str.maketrans({"á":"a","é":"e","í":"i","ó":"o","ú":"u","ñ":"n","Á":"A","É":"E","Í":"I","Ó":"O","Ú":"U","Ñ":"N"})
     df.columns = df.columns.str.strip()
@@ -127,7 +132,7 @@ def toSqlTxt(path,nombre_tabla,file_, dic_fechas, dic_formatos, separador, colum
             df[formato] = df[formato].str.replace("[^0-9-.]", "", regex=True)
     connection,cdn_connection,engine,bbdd_or = mysql_connection()
     try:
-        tabla = Table(f"tb_asignacion_{nombre_tabla}", MetaData(), autoload_with = engine)
+        tabla = Table(f"tb_{nombre_tabla}", MetaData(), autoload_with = engine)
         nombre_columnas_nuevas = [c.name for c in tabla.c]
         diffCols = df.columns.difference(nombre_columnas_nuevas)
         listCols = list(diffCols)
@@ -135,7 +140,7 @@ def toSqlTxt(path,nombre_tabla,file_, dic_fechas, dic_formatos, separador, colum
             for i in range(len(listCols)):
                 logging.getLogger("user").info(f"Columna {i} agregada.")
                 connection.execute(text(f"ALTER TABLE `{bbdd_or}`.`{tabla.name}` ADD COLUMN `" + listCols[i] + "` VARCHAR(128)"))
-        tabla = Table(f"tb_asignacion_{nombre_tabla}", MetaData(), autoload_with = engine)
+        tabla = Table(f"tb_{nombre_tabla}", MetaData(), autoload_with = engine)
         dask.config.set(scheduler="processes")
         df.repartition(npartitions=10)
         columnas_nuevas = [Column(c.name, c.type) for c in tabla.c]
@@ -208,7 +213,7 @@ def toSqlExcel(path,nombre_tabla,file_, dic_fechas,dic_formatos,dic_hojas,separa
                         df[clave] = df[clave].str.replace("[^a-zA-Z0-9-@.,+]", "", regex=True)
                 connection,cdn_connection,engine,bbdd_or = mysql_connection()
                 logging.getLogger("user").info('Creacion Tabla temporal')
-                tabla = Table(f"tb_asignacion_{nombre_tabla1}", MetaData(), autoload_with = engine)
+                tabla = Table(f"tb_{nombre_tabla1}", MetaData(), autoload_with = engine)
                 nombre_columnas_nuevas = [c.name for c in tabla.c]
                 diffCols = df.columns.difference(nombre_columnas_nuevas)
                 listCols = list(diffCols)
@@ -216,7 +221,7 @@ def toSqlExcel(path,nombre_tabla,file_, dic_fechas,dic_formatos,dic_hojas,separa
                     for i in range(len(listCols)):
                         logging.getLogger("user").info(f"Columna {i} agregada.")
                         connection.execute(text(f"ALTER TABLE `{bbdd_or}`.`{tabla.name}` ADD COLUMN `" + listCols[i] + "` VARCHAR(128)"))
-                tabla = Table(f"tb_asignacion_{nombre_tabla1}", MetaData(), autoload_with = engine)
+                tabla = Table(f"tb_{nombre_tabla1}", MetaData(), autoload_with = engine)
                 columnas_nuevas = [Column(c.name, c.type) for c in tabla.c]
                 tmp = Table(f"{tabla.name}_tmp", MetaData(), *columnas_nuevas)
                 tmp.drop(bind = engine,checkfirst=True)
@@ -264,7 +269,7 @@ def toSqlZip(path,nombre_tabla,file, dic_fechas,dic_formatos,dic_hojas,separador
 def check_and_add(path,nombre_tabla,file, dic_fechas,dic_formatos,dic_hojas,separador, cargue_tabla, asignacion, nombre_archivo, columnas_tabla, columnas_sin_espacio):
     logging.getLogger("user").info(f" archivo a cargar{file}")
     ini = time.time() # timepo de inicio del cargue 
-    LOADED_FILES = f"//root//PROCESOS//BASESCLAROCOBRANZAPRUEBAS//src//LoadedFiles//{nombre_tabla}.log" # ruta del log
+    LOADED_FILES = f"{log_file_path1}//{nombre_tabla}.log" # ruta del log #//root//PROCESOS//BASESCLAROCOBRANZAPRUEBAS//src//LoadedFiles//
 
     with open(LOADED_FILES, "r") as f: # abrir el archivo del log
         logs     = f.read().splitlines()
