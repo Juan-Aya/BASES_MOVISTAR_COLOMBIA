@@ -1,0 +1,7 @@
+*/__pycache__
+*/*/__pycache__
+*/*/*/__pycache__
+
+venv
+.git-credentials
+src/config/config_60.json
