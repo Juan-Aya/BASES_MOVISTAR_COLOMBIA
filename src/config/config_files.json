@@ -10,7 +10,7 @@
    "fechas":["FEC_ESTADO","FEC_ESTADO_CRM","FEC_ASIGNA","FEC_CIERRE","FEC_VENCIMIENTO","FEC_ALTA"],
    "formatos":[],
    "columnas_sin_espacio" : [],
-   "cruze":[]
+   "cruze":["","",""]
   },
   "archivo2":{
     "varibles":[["PAGOS"],"pagos_general","Z:\\WORKFORCE\\02. Workforce\\WFM_BASES_OUTBOUND\\CAMPANAS\\MOVISTAR_CARTERA_COLOMBIA\\MOVISTAR_CARTERA_COLOMBIA_B2C\\CICLOS\\PAGOS\\GENERAL"],
@@ -22,7 +22,7 @@
     "fechas":["FECHA_PAGO"],
     "formatos":[],
     "columnas_sin_espacio" : [],
-    "cruze":["1","NUMERO_CUENTA"]
+    "cruze":["1","NUMERO_CUENTA",""]
    },
    "archivo3":{
      "varibles":[["PAGOS_MOVIL"],"pagos_movil","Z:\\WORKFORCE\\02. Workforce\\WFM_BASES_OUTBOUND\\CAMPANAS\\MOVISTAR_CARTERA_COLOMBIA\\MOVISTAR_CARTERA_COLOMBIA_B2C\\CICLOS\\PAGOS\\MOVIL"],
@@ -34,7 +34,7 @@
      "fechas":["FECHA_PAGO"],
      "formatos":[],
      "columnas_sin_espacio" : [],
-     "cruze":["1","COD_CLIENTE"]
+     "cruze":["1","COD_CLIENTE",""]
     },
     "archivo4":{
       "varibles":[["PAGOS_VAC"],"pagos_vac","Z:\\WORKFORCE\\02. Workforce\\WFM_BASES_OUTBOUND\\CAMPANAS\\MOVISTAR_CARTERA_COLOMBIA\\MOVISTAR_CARTERA_COLOMBIA_B2C\\CICLOS\\PAGOS\\VAC"],
@@ -46,7 +46,7 @@
       "fechas":["FECHA_PAGO"],
       "formatos":[],
       "columnas_sin_espacio" : [],
-      "cruze":["1","COD_CLIENTE"]
+      "cruze":["1","COD_CLIENTE",""]
      },
      "archivo5":{
        "varibles":[["CARTERA_FULL_STACK"],"cartera_full_stack","Z:\\WORKFORCE\\02. Workforce\\WFM_BASES_OUTBOUND\\CAMPANAS\\MOVISTAR_CARTERA_COLOMBIA\\MOVISTAR_CARTERA_COLOMBIA_B2C\\CICLOS\\FULL_STACK"],
@@ -58,7 +58,7 @@
        "fechas":["FEC_ESTADO"],
        "formatos":[],
        "columnas_sin_espacio" : [],
-       "cruze":["1","CUENTA_FS"]
+       "cruze":["1","CUENTA_FS","1"]
       }
  }
 }

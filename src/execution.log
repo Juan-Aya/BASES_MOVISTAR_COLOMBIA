@@ -1427,3 +1427,11 @@ UnboundLocalError: cannot access local variable 'Cruze' where it is not associat
 [2024-01-09 12:36:22 >> INFO    ] Insercion Tabla destino DW
 [2024-01-09 12:36:23 >> INFO    ] Base 'PAGOS_VAC_20240109_.txt' del 2024-01-09 07:16:19  recien cargada [ToSQL]
 [2024-01-09 12:36:23 >> INFO    ] Tiempo total de ejecucion: 6.121144771575928 de 2024-01-09 07:16:19 - PAGOS_VAC_20240109_.txt
+[2024-01-09 16:10:57 >> INFO    ]  archivo a cargar2024-01-09 06:35:32 - CARTERA_FULL_STACK_20240109.txt
+[2024-01-09 16:10:57 >> INFO    ] La base 'CARTERA_FULL_STACK_20240109.txt' del 2024-01-09 06:35:32  esta por cargarse
+[2024-01-09 16:10:57 >> INFO    ] el archivo es un txt
+[2024-01-09 16:10:57 >> INFO    ] cargando archivo de texto
+[2024-01-09 16:12:01 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 16:12:31 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 16:12:33 >> INFO    ] Base 'CARTERA_FULL_STACK_20240109.txt' del 2024-01-09 06:35:32  recien cargada [ToSQL]
+[2024-01-09 16:12:33 >> INFO    ] Tiempo total de ejecucion: 95.58015131950378 de 2024-01-09 06:35:32 - CARTERA_FULL_STACK_20240109.txt

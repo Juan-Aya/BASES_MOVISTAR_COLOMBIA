@@ -165,6 +165,9 @@ def toSqlTxt(path,nombre_tabla,file_, dic_fechas, dic_formatos, separador, colum
         tmp.create(bind = engine)
         logging.getLogger("user").info('Creacion Tabla temporal')
         # Cargue del DataFrame de Dask en la base de datos MySQL.
+        if cruze[2] == "1":
+            connection.execute(text(f"TRUNCATE {tabla.name} ;"))
+            print("Ejecucion Trucate: ", tabla.name)     
         df.to_sql(tmp.name, cdn_connection, if_exists='append',index=False) #,parallel=True
         connection.execute(text(f"INSERT IGNORE INTO {tabla.name} SELECT * FROM {tmp.name};"))
         tmp.drop(bind = engine,checkfirst=True)
