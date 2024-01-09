@@ -199,3 +199,1231 @@
 [2024-01-04 17:55:16 >> INFO    ] Insercion Tabla destino DW
 [2024-01-04 17:55:17 >> INFO    ] Base 'PAGOS_VAC_20240104_.txt' del 2024-01-04 07:29:18  recien cargada [ToSQL]
 [2024-01-04 17:55:17 >> INFO    ] Tiempo total de ejecucion: 95.28614330291748 de 2024-01-04 07:29:18 - PAGOS_VAC_20240104_.txt
+[2024-01-05 12:53:29 >> INFO    ]  archivo a cargar2024-01-04 07:56:33 - con_fs_Potencial_pyme_Bloqueo_C20_v1_240104.txt
+[2024-01-05 12:53:29 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C20_v1_240104.txt' del 2024-01-04 07:56:33  esta por cargarse
+[2024-01-05 12:53:29 >> INFO    ] el archivo es un txt
+[2024-01-05 12:53:29 >> INFO    ] cargando archivo de texto
+[2024-01-05 12:53:30 >> INFO    ] Creacion Tabla temporal
+[2024-01-05 12:53:34 >> INFO    ] Insercion Tabla destino DW
+[2024-01-05 12:53:35 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C20_v1_240104.txt' del 2024-01-04 07:56:33  recien cargada [ToSQL]
+[2024-01-05 12:53:35 >> INFO    ] Tiempo total de ejecucion: 5.607125282287598 de 2024-01-04 07:56:33 - con_fs_Potencial_pyme_Bloqueo_C20_v1_240104.txt
+[2024-01-05 12:53:35 >> INFO    ]  archivo a cargar2024-01-04 07:57:39 - con_fs_Potencial_pyme_Bloqueo_C12_v1_240104.txt
+[2024-01-05 12:53:35 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C12_v1_240104.txt' del 2024-01-04 07:57:39  esta por cargarse
+[2024-01-05 12:53:35 >> INFO    ] el archivo es un txt
+[2024-01-05 12:53:35 >> INFO    ] cargando archivo de texto
+[2024-01-05 12:53:35 >> INFO    ] Creacion Tabla temporal
+[2024-01-05 12:53:39 >> INFO    ] Insercion Tabla destino DW
+[2024-01-05 12:53:40 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C12_v1_240104.txt' del 2024-01-04 07:57:39  recien cargada [ToSQL]
+[2024-01-05 12:53:40 >> INFO    ] Tiempo total de ejecucion: 4.970770597457886 de 2024-01-04 07:57:39 - con_fs_Potencial_pyme_Bloqueo_C12_v1_240104.txt
+[2024-01-05 12:53:40 >> INFO    ]  archivo a cargar2024-01-04 07:58:07 - con_fs_Potencial_pyme_Bloqueo_C23_v1_240104.txt
+[2024-01-05 12:53:40 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C23_v1_240104.txt' del 2024-01-04 07:58:07  esta por cargarse
+[2024-01-05 12:53:40 >> INFO    ] el archivo es un txt
+[2024-01-05 12:53:40 >> INFO    ] cargando archivo de texto
+[2024-01-05 12:53:40 >> INFO    ] Creacion Tabla temporal
+[2024-01-05 12:53:44 >> INFO    ] Insercion Tabla destino DW
+[2024-01-05 12:53:45 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C23_v1_240104.txt' del 2024-01-04 07:58:07  recien cargada [ToSQL]
+[2024-01-05 12:53:45 >> INFO    ] Tiempo total de ejecucion: 4.938014984130859 de 2024-01-04 07:58:07 - con_fs_Potencial_pyme_Bloqueo_C23_v1_240104.txt
+[2024-01-05 12:53:45 >> INFO    ]  archivo a cargar2024-01-04 07:59:55 - con_fs_Potencial_pyme_Bloqueo_C26_v1_240104.txt
+[2024-01-05 12:53:45 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C26_v1_240104.txt' del 2024-01-04 07:59:55  esta por cargarse
+[2024-01-05 12:53:45 >> INFO    ] el archivo es un txt
+[2024-01-05 12:53:45 >> INFO    ] cargando archivo de texto
+[2024-01-05 12:53:45 >> INFO    ] Creacion Tabla temporal
+[2024-01-05 12:53:50 >> INFO    ] Insercion Tabla destino DW
+[2024-01-05 12:53:50 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C26_v1_240104.txt' del 2024-01-04 07:59:55  recien cargada [ToSQL]
+[2024-01-05 12:53:50 >> INFO    ] Tiempo total de ejecucion: 5.390188932418823 de 2024-01-04 07:59:55 - con_fs_Potencial_pyme_Bloqueo_C26_v1_240104.txt
+[2024-01-05 12:53:50 >> INFO    ]  archivo a cargar2024-01-04 07:57:40 - con_fs_Potencial_pyme_Bloqueo_C9_v1_240104.txt
+[2024-01-05 12:53:50 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C9_v1_240104.txt' del 2024-01-04 07:57:40  esta por cargarse
+[2024-01-05 12:53:50 >> INFO    ] el archivo es un txt
+[2024-01-05 12:53:50 >> INFO    ] cargando archivo de texto
+[2024-01-05 12:53:51 >> INFO    ] Creacion Tabla temporal
+[2024-01-05 12:53:54 >> INFO    ] Insercion Tabla destino DW
+[2024-01-05 12:53:55 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C9_v1_240104.txt' del 2024-01-04 07:57:40  recien cargada [ToSQL]
+[2024-01-05 12:53:55 >> INFO    ] Tiempo total de ejecucion: 4.925223350524902 de 2024-01-04 07:57:40 - con_fs_Potencial_pyme_Bloqueo_C9_v1_240104.txt
+[2024-01-05 12:53:55 >> INFO    ]  archivo a cargar2024-01-04 07:59:55 - con_fs_Potencial_pyme_Bloqueo_C16_v1_240104.txt
+[2024-01-05 12:53:55 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C16_v1_240104.txt' del 2024-01-04 07:59:55  esta por cargarse
+[2024-01-05 12:53:55 >> INFO    ] el archivo es un txt
+[2024-01-05 12:53:55 >> INFO    ] cargando archivo de texto
+[2024-01-05 12:53:56 >> INFO    ] Creacion Tabla temporal
+[2024-01-05 12:53:59 >> INFO    ] Insercion Tabla destino DW
+[2024-01-05 12:54:00 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C16_v1_240104.txt' del 2024-01-04 07:59:55  recien cargada [ToSQL]
+[2024-01-05 12:54:00 >> INFO    ] Tiempo total de ejecucion: 4.748092174530029 de 2024-01-04 07:59:55 - con_fs_Potencial_pyme_Bloqueo_C16_v1_240104.txt
+[2024-01-05 12:54:00 >> INFO    ]  archivo a cargar2024-01-04 07:56:18 - con_fs_Potencial_pyme_Bloqueo_C5_v1_240104.txt
+[2024-01-05 12:54:00 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C5_v1_240104.txt' del 2024-01-04 07:56:18  esta por cargarse
+[2024-01-05 12:54:00 >> INFO    ] el archivo es un txt
+[2024-01-05 12:54:00 >> INFO    ] cargando archivo de texto
+[2024-01-05 12:54:00 >> INFO    ] Creacion Tabla temporal
+[2024-01-05 12:54:04 >> INFO    ] Insercion Tabla destino DW
+[2024-01-05 12:54:05 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C5_v1_240104.txt' del 2024-01-04 07:56:18  recien cargada [ToSQL]
+[2024-01-05 12:54:05 >> INFO    ] Tiempo total de ejecucion: 4.71452784538269 de 2024-01-04 07:56:18 - con_fs_Potencial_pyme_Bloqueo_C5_v1_240104.txt
+[2024-01-05 12:54:39 >> INFO    ]  archivo a cargar2024-01-01 07:57:40 - con_fs_Potencial_pyme_Bloqueo_C20_v1_240101.txt
+[2024-01-05 12:54:39 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C20_v1_240101.txt' del 2024-01-01 07:57:40  esta por cargarse
+[2024-01-05 12:54:39 >> INFO    ] el archivo es un txt
+[2024-01-05 12:54:39 >> INFO    ] cargando archivo de texto
+[2024-01-05 12:54:39 >> INFO    ] Creacion Tabla temporal
+[2024-01-05 12:54:43 >> INFO    ] Insercion Tabla destino DW
+[2024-01-05 12:54:44 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C20_v1_240101.txt' del 2024-01-01 07:57:40  recien cargada [ToSQL]
+[2024-01-05 12:54:44 >> INFO    ] Tiempo total de ejecucion: 5.388095378875732 de 2024-01-01 07:57:40 - con_fs_Potencial_pyme_Bloqueo_C20_v1_240101.txt
+[2024-01-05 12:54:44 >> INFO    ]  archivo a cargar2024-01-01 07:57:02 - con_fs_Potencial_pyme_Bloqueo_C5_v1_240101.txt
+[2024-01-05 12:54:44 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C5_v1_240101.txt' del 2024-01-01 07:57:02  esta por cargarse
+[2024-01-05 12:54:44 >> INFO    ] el archivo es un txt
+[2024-01-05 12:54:44 >> INFO    ] cargando archivo de texto
+[2024-01-05 12:54:44 >> INFO    ] Creacion Tabla temporal
+[2024-01-05 12:54:48 >> INFO    ] Insercion Tabla destino DW
+[2024-01-05 12:54:49 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C5_v1_240101.txt' del 2024-01-01 07:57:02  recien cargada [ToSQL]
+[2024-01-05 12:54:49 >> INFO    ] Tiempo total de ejecucion: 4.5881006717681885 de 2024-01-01 07:57:02 - con_fs_Potencial_pyme_Bloqueo_C5_v1_240101.txt
+[2024-01-05 12:54:49 >> INFO    ]  archivo a cargar2024-01-01 07:58:13 - con_fs_Potencial_pyme_Bloqueo_C16_v1_240101.txt
+[2024-01-05 12:54:49 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C16_v1_240101.txt' del 2024-01-01 07:58:13  esta por cargarse
+[2024-01-05 12:54:49 >> INFO    ] el archivo es un txt
+[2024-01-05 12:54:49 >> INFO    ] cargando archivo de texto
+[2024-01-05 12:54:49 >> INFO    ] Creacion Tabla temporal
+[2024-01-05 12:54:53 >> INFO    ] Insercion Tabla destino DW
+[2024-01-05 12:54:54 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C16_v1_240101.txt' del 2024-01-01 07:58:13  recien cargada [ToSQL]
+[2024-01-05 12:54:54 >> INFO    ] Tiempo total de ejecucion: 4.95208215713501 de 2024-01-01 07:58:13 - con_fs_Potencial_pyme_Bloqueo_C16_v1_240101.txt
+[2024-01-05 12:54:54 >> INFO    ]  archivo a cargar2024-01-01 07:57:40 - con_fs_Potencial_pyme_Bloqueo_C1_v1_240101.txt
+[2024-01-05 12:54:54 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C1_v1_240101.txt' del 2024-01-01 07:57:40  esta por cargarse
+[2024-01-05 12:54:54 >> INFO    ] el archivo es un txt
+[2024-01-05 12:54:54 >> INFO    ] cargando archivo de texto
+[2024-01-05 12:54:54 >> INFO    ] Creacion Tabla temporal
+[2024-01-05 12:54:58 >> INFO    ] Insercion Tabla destino DW
+[2024-01-05 12:54:58 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C1_v1_240101.txt' del 2024-01-01 07:57:40  recien cargada [ToSQL]
+[2024-01-05 12:54:58 >> INFO    ] Tiempo total de ejecucion: 4.831897497177124 de 2024-01-01 07:57:40 - con_fs_Potencial_pyme_Bloqueo_C1_v1_240101.txt
+[2024-01-05 12:54:58 >> INFO    ]  archivo a cargar2024-01-01 07:57:02 - con_fs_Potencial_pyme_Bloqueo_C9_v1_240101.txt
+[2024-01-05 12:54:58 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C9_v1_240101.txt' del 2024-01-01 07:57:02  esta por cargarse
+[2024-01-05 12:54:58 >> INFO    ] el archivo es un txt
+[2024-01-05 12:54:58 >> INFO    ] cargando archivo de texto
+[2024-01-05 12:54:59 >> INFO    ] Creacion Tabla temporal
+[2024-01-05 12:55:03 >> INFO    ] Insercion Tabla destino DW
+[2024-01-05 12:55:03 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C9_v1_240101.txt' del 2024-01-01 07:57:02  recien cargada [ToSQL]
+[2024-01-05 12:55:03 >> INFO    ] Tiempo total de ejecucion: 5.033209800720215 de 2024-01-01 07:57:02 - con_fs_Potencial_pyme_Bloqueo_C9_v1_240101.txt
+[2024-01-05 12:55:03 >> INFO    ]  archivo a cargar2024-01-01 07:58:12 - con_fs_Potencial_pyme_Bloqueo_C23_v1_240101.txt
+[2024-01-05 12:55:03 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C23_v1_240101.txt' del 2024-01-01 07:58:12  esta por cargarse
+[2024-01-05 12:55:03 >> INFO    ] el archivo es un txt
+[2024-01-05 12:55:03 >> INFO    ] cargando archivo de texto
+[2024-01-05 12:55:04 >> INFO    ] Creacion Tabla temporal
+[2024-01-05 12:55:08 >> INFO    ] Insercion Tabla destino DW
+[2024-01-05 12:55:09 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C23_v1_240101.txt' del 2024-01-01 07:58:12  recien cargada [ToSQL]
+[2024-01-05 12:55:09 >> INFO    ] Tiempo total de ejecucion: 5.591679811477661 de 2024-01-01 07:58:12 - con_fs_Potencial_pyme_Bloqueo_C23_v1_240101.txt
+[2024-01-05 12:55:09 >> INFO    ]  archivo a cargar2024-01-01 07:57:02 - con_fs_Potencial_pyme_Bloqueo_C12_v1_240101.txt
+[2024-01-05 12:55:09 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C12_v1_240101.txt' del 2024-01-01 07:57:02  esta por cargarse
+[2024-01-05 12:55:09 >> INFO    ] el archivo es un txt
+[2024-01-05 12:55:09 >> INFO    ] cargando archivo de texto
+[2024-01-05 12:55:09 >> INFO    ] Creacion Tabla temporal
+[2024-01-05 12:55:13 >> INFO    ] Insercion Tabla destino DW
+[2024-01-05 12:55:14 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C12_v1_240101.txt' del 2024-01-01 07:57:02  recien cargada [ToSQL]
+[2024-01-05 12:55:14 >> INFO    ] Tiempo total de ejecucion: 4.682446002960205 de 2024-01-01 07:57:02 - con_fs_Potencial_pyme_Bloqueo_C12_v1_240101.txt
+[2024-01-05 12:55:35 >> INFO    ]  archivo a cargar2024-01-02 07:55:24 - con_fs_Potencial_pyme_Bloqueo_C23_v1_240102.txt
+[2024-01-05 12:55:35 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C23_v1_240102.txt' del 2024-01-02 07:55:24  esta por cargarse
+[2024-01-05 12:55:35 >> INFO    ] el archivo es un txt
+[2024-01-05 12:55:35 >> INFO    ] cargando archivo de texto
+[2024-01-05 12:55:35 >> INFO    ] Creacion Tabla temporal
+[2024-01-05 12:55:40 >> INFO    ] Insercion Tabla destino DW
+[2024-01-05 12:55:40 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C23_v1_240102.txt' del 2024-01-02 07:55:24  recien cargada [ToSQL]
+[2024-01-05 12:55:40 >> INFO    ] Tiempo total de ejecucion: 5.378427505493164 de 2024-01-02 07:55:24 - con_fs_Potencial_pyme_Bloqueo_C23_v1_240102.txt
+[2024-01-05 12:55:40 >> INFO    ]  archivo a cargar2024-01-02 07:55:24 - con_fs_Potencial_pyme_Bloqueo_C9_v1_240102.txt
+[2024-01-05 12:55:40 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C9_v1_240102.txt' del 2024-01-02 07:55:24  esta por cargarse
+[2024-01-05 12:55:40 >> INFO    ] el archivo es un txt
+[2024-01-05 12:55:40 >> INFO    ] cargando archivo de texto
+[2024-01-05 12:55:40 >> INFO    ] Creacion Tabla temporal
+[2024-01-05 12:55:44 >> INFO    ] Insercion Tabla destino DW
+[2024-01-05 12:55:45 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C9_v1_240102.txt' del 2024-01-02 07:55:24  recien cargada [ToSQL]
+[2024-01-05 12:55:45 >> INFO    ] Tiempo total de ejecucion: 4.7512383460998535 de 2024-01-02 07:55:24 - con_fs_Potencial_pyme_Bloqueo_C9_v1_240102.txt
+[2024-01-05 12:55:45 >> INFO    ]  archivo a cargar2024-01-02 07:54:38 - con_fs_Potencial_pyme_Bloqueo_C5_v1_240102.txt
+[2024-01-05 12:55:45 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C5_v1_240102.txt' del 2024-01-02 07:54:38  esta por cargarse
+[2024-01-05 12:55:45 >> INFO    ] el archivo es un txt
+[2024-01-05 12:55:45 >> INFO    ] cargando archivo de texto
+[2024-01-05 12:55:45 >> INFO    ] Creacion Tabla temporal
+[2024-01-05 12:55:49 >> INFO    ] Insercion Tabla destino DW
+[2024-01-05 12:55:50 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C5_v1_240102.txt' del 2024-01-02 07:54:38  recien cargada [ToSQL]
+[2024-01-05 12:55:50 >> INFO    ] Tiempo total de ejecucion: 4.718960285186768 de 2024-01-02 07:54:38 - con_fs_Potencial_pyme_Bloqueo_C5_v1_240102.txt
+[2024-01-05 12:55:50 >> INFO    ]  archivo a cargar2024-01-02 07:54:40 - con_fs_Potencial_pyme_Bloqueo_C12_v1_240102.txt
+[2024-01-05 12:55:50 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C12_v1_240102.txt' del 2024-01-02 07:54:40  esta por cargarse
+[2024-01-05 12:55:50 >> INFO    ] el archivo es un txt
+[2024-01-05 12:55:50 >> INFO    ] cargando archivo de texto
+[2024-01-05 12:55:50 >> INFO    ] Creacion Tabla temporal
+[2024-01-05 12:55:53 >> INFO    ] Insercion Tabla destino DW
+[2024-01-05 12:55:54 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C12_v1_240102.txt' del 2024-01-02 07:54:40  recien cargada [ToSQL]
+[2024-01-05 12:55:54 >> INFO    ] Tiempo total de ejecucion: 4.422765493392944 de 2024-01-02 07:54:40 - con_fs_Potencial_pyme_Bloqueo_C12_v1_240102.txt
+[2024-01-05 12:55:54 >> INFO    ]  archivo a cargar2024-01-02 07:54:41 - con_fs_Potencial_pyme_Bloqueo_C20_v1_240102.txt
+[2024-01-05 12:55:54 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C20_v1_240102.txt' del 2024-01-02 07:54:41  esta por cargarse
+[2024-01-05 12:55:54 >> INFO    ] el archivo es un txt
+[2024-01-05 12:55:54 >> INFO    ] cargando archivo de texto
+[2024-01-05 12:55:54 >> INFO    ] Creacion Tabla temporal
+[2024-01-05 12:55:59 >> INFO    ] Insercion Tabla destino DW
+[2024-01-05 12:55:59 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C20_v1_240102.txt' del 2024-01-02 07:54:41  recien cargada [ToSQL]
+[2024-01-05 12:55:59 >> INFO    ] Tiempo total de ejecucion: 5.172166347503662 de 2024-01-02 07:54:41 - con_fs_Potencial_pyme_Bloqueo_C20_v1_240102.txt
+[2024-01-05 12:55:59 >> INFO    ]  archivo a cargar2024-01-02 07:55:24 - con_fs_Potencial_pyme_Bloqueo_C16_v1_240102.txt
+[2024-01-05 12:55:59 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C16_v1_240102.txt' del 2024-01-02 07:55:24  esta por cargarse
+[2024-01-05 12:55:59 >> INFO    ] el archivo es un txt
+[2024-01-05 12:55:59 >> INFO    ] cargando archivo de texto
+[2024-01-05 12:56:00 >> INFO    ] Creacion Tabla temporal
+[2024-01-05 12:56:04 >> INFO    ] Insercion Tabla destino DW
+[2024-01-05 12:56:05 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C16_v1_240102.txt' del 2024-01-02 07:55:24  recien cargada [ToSQL]
+[2024-01-05 12:56:05 >> INFO    ] Tiempo total de ejecucion: 5.3912513256073 de 2024-01-02 07:55:24 - con_fs_Potencial_pyme_Bloqueo_C16_v1_240102.txt
+[2024-01-05 12:56:05 >> INFO    ]  archivo a cargar2024-01-02 07:55:24 - con_fs_Potencial_pyme_Bloqueo_C1_v1_240102.txt
+[2024-01-05 12:56:05 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C1_v1_240102.txt' del 2024-01-02 07:55:24  esta por cargarse
+[2024-01-05 12:56:05 >> INFO    ] el archivo es un txt
+[2024-01-05 12:56:05 >> INFO    ] cargando archivo de texto
+[2024-01-05 12:56:05 >> INFO    ] Creacion Tabla temporal
+[2024-01-05 12:56:09 >> INFO    ] Insercion Tabla destino DW
+[2024-01-05 12:56:09 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C1_v1_240102.txt' del 2024-01-02 07:55:24  recien cargada [ToSQL]
+[2024-01-05 12:56:09 >> INFO    ] Tiempo total de ejecucion: 4.793623208999634 de 2024-01-02 07:55:24 - con_fs_Potencial_pyme_Bloqueo_C1_v1_240102.txt
+[2024-01-05 12:56:09 >> INFO    ]  archivo a cargar2024-01-02 07:55:24 - con_fs_Potencial_pyme_Bloqueo_C26_v1_240102.txt
+[2024-01-05 12:56:09 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C26_v1_240102.txt' del 2024-01-02 07:55:24  esta por cargarse
+[2024-01-05 12:56:09 >> INFO    ] el archivo es un txt
+[2024-01-05 12:56:09 >> INFO    ] cargando archivo de texto
+[2024-01-05 12:56:10 >> INFO    ] Creacion Tabla temporal
+[2024-01-05 12:56:14 >> INFO    ] Insercion Tabla destino DW
+[2024-01-05 12:56:15 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C26_v1_240102.txt' del 2024-01-02 07:55:24  recien cargada [ToSQL]
+[2024-01-05 12:56:15 >> INFO    ] Tiempo total de ejecucion: 5.26147723197937 de 2024-01-02 07:55:24 - con_fs_Potencial_pyme_Bloqueo_C26_v1_240102.txt
+[2024-01-05 13:00:08 >> INFO    ]  archivo a cargar2024-01-03 07:55:15 - con_fs_Potencial_pyme_Bloqueo_C16_v1_240103.txt
+[2024-01-05 13:00:08 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C16_v1_240103.txt' del 2024-01-03 07:55:15  esta por cargarse
+[2024-01-05 13:00:08 >> INFO    ] el archivo es un txt
+[2024-01-05 13:00:08 >> INFO    ] cargando archivo de texto
+[2024-01-05 13:00:09 >> INFO    ] Creacion Tabla temporal
+[2024-01-05 13:00:13 >> INFO    ] Insercion Tabla destino DW
+[2024-01-05 13:00:14 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C16_v1_240103.txt' del 2024-01-03 07:55:15  recien cargada [ToSQL]
+[2024-01-05 13:00:14 >> INFO    ] Tiempo total de ejecucion: 5.730366468429565 de 2024-01-03 07:55:15 - con_fs_Potencial_pyme_Bloqueo_C16_v1_240103.txt
+[2024-01-05 13:00:14 >> INFO    ]  archivo a cargar2024-01-03 07:55:14 - con_fs_Potencial_pyme_Bloqueo_C12_v1_240103.txt
+[2024-01-05 13:00:14 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C12_v1_240103.txt' del 2024-01-03 07:55:14  esta por cargarse
+[2024-01-05 13:00:14 >> INFO    ] el archivo es un txt
+[2024-01-05 13:00:14 >> INFO    ] cargando archivo de texto
+[2024-01-05 13:00:14 >> INFO    ] Creacion Tabla temporal
+[2024-01-05 13:00:18 >> INFO    ] Insercion Tabla destino DW
+[2024-01-05 13:00:19 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C12_v1_240103.txt' del 2024-01-03 07:55:14  recien cargada [ToSQL]
+[2024-01-05 13:00:19 >> INFO    ] Tiempo total de ejecucion: 4.863799571990967 de 2024-01-03 07:55:14 - con_fs_Potencial_pyme_Bloqueo_C12_v1_240103.txt
+[2024-01-05 13:00:19 >> INFO    ]  archivo a cargar2024-01-03 07:54:32 - con_fs_Potencial_pyme_Bloqueo_C5_v1_240103.txt
+[2024-01-05 13:00:19 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C5_v1_240103.txt' del 2024-01-03 07:54:32  esta por cargarse
+[2024-01-05 13:00:19 >> INFO    ] el archivo es un txt
+[2024-01-05 13:00:19 >> INFO    ] cargando archivo de texto
+[2024-01-05 13:00:19 >> INFO    ] Creacion Tabla temporal
+[2024-01-05 13:00:23 >> INFO    ] Insercion Tabla destino DW
+[2024-01-05 13:00:24 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C5_v1_240103.txt' del 2024-01-03 07:54:32  recien cargada [ToSQL]
+[2024-01-05 13:00:24 >> INFO    ] Tiempo total de ejecucion: 4.946966886520386 de 2024-01-03 07:54:32 - con_fs_Potencial_pyme_Bloqueo_C5_v1_240103.txt
+[2024-01-05 13:00:24 >> INFO    ]  archivo a cargar2024-01-03 07:55:14 - con_fs_Potencial_pyme_Bloqueo_C9_v1_240103.txt
+[2024-01-05 13:00:24 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C9_v1_240103.txt' del 2024-01-03 07:55:14  esta por cargarse
+[2024-01-05 13:00:24 >> INFO    ] el archivo es un txt
+[2024-01-05 13:00:24 >> INFO    ] cargando archivo de texto
+[2024-01-05 13:00:24 >> INFO    ] Creacion Tabla temporal
+[2024-01-05 13:00:28 >> INFO    ] Insercion Tabla destino DW
+[2024-01-05 13:00:29 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C9_v1_240103.txt' del 2024-01-03 07:55:14  recien cargada [ToSQL]
+[2024-01-05 13:00:29 >> INFO    ] Tiempo total de ejecucion: 5.090142011642456 de 2024-01-03 07:55:14 - con_fs_Potencial_pyme_Bloqueo_C9_v1_240103.txt
+[2024-01-05 13:00:29 >> INFO    ]  archivo a cargar2024-01-03 07:55:14 - con_fs_Potencial_pyme_Bloqueo_C26_v1_240103.txt
+[2024-01-05 13:00:29 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C26_v1_240103.txt' del 2024-01-03 07:55:14  esta por cargarse
+[2024-01-05 13:00:29 >> INFO    ] el archivo es un txt
+[2024-01-05 13:00:29 >> INFO    ] cargando archivo de texto
+[2024-01-05 13:00:29 >> INFO    ] Creacion Tabla temporal
+[2024-01-05 13:00:33 >> INFO    ] Insercion Tabla destino DW
+[2024-01-05 13:00:34 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C26_v1_240103.txt' del 2024-01-03 07:55:14  recien cargada [ToSQL]
+[2024-01-05 13:00:34 >> INFO    ] Tiempo total de ejecucion: 4.6090638637542725 de 2024-01-03 07:55:14 - con_fs_Potencial_pyme_Bloqueo_C26_v1_240103.txt
+[2024-01-05 13:00:34 >> INFO    ]  archivo a cargar2024-01-03 07:57:52 - con_fs_Potencial_pyme_Bloqueo_C23_v1_240103.txt
+[2024-01-05 13:00:34 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C23_v1_240103.txt' del 2024-01-03 07:57:52  esta por cargarse
+[2024-01-05 13:00:34 >> INFO    ] el archivo es un txt
+[2024-01-05 13:00:34 >> INFO    ] cargando archivo de texto
+[2024-01-05 13:00:34 >> INFO    ] Creacion Tabla temporal
+[2024-01-05 13:00:43 >> INFO    ] Insercion Tabla destino DW
+[2024-01-05 13:00:44 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C23_v1_240103.txt' del 2024-01-03 07:57:52  recien cargada [ToSQL]
+[2024-01-05 13:00:44 >> INFO    ] Tiempo total de ejecucion: 10.426415920257568 de 2024-01-03 07:57:52 - con_fs_Potencial_pyme_Bloqueo_C23_v1_240103.txt
+[2024-01-05 13:00:44 >> INFO    ]  archivo a cargar2024-01-03 07:54:20 - con_fs_Potencial_pyme_Bloqueo_C20_v1_240103.txt
+[2024-01-05 13:00:44 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C20_v1_240103.txt' del 2024-01-03 07:54:20  esta por cargarse
+[2024-01-05 13:00:44 >> INFO    ] el archivo es un txt
+[2024-01-05 13:00:44 >> INFO    ] cargando archivo de texto
+[2024-01-05 13:00:44 >> INFO    ] Creacion Tabla temporal
+[2024-01-05 13:00:48 >> INFO    ] Insercion Tabla destino DW
+[2024-01-05 13:00:49 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C20_v1_240103.txt' del 2024-01-03 07:54:20  recien cargada [ToSQL]
+[2024-01-05 13:00:49 >> INFO    ] Tiempo total de ejecucion: 5.015385389328003 de 2024-01-03 07:54:20 - con_fs_Potencial_pyme_Bloqueo_C20_v1_240103.txt
+[2024-01-05 14:03:44 >> INFO    ]  archivo a cargar2024-01-05 06:23:30 - PAGOS_20240105.txt
+[2024-01-05 14:03:44 >> INFO    ] La base 'PAGOS_20240105.txt' del 2024-01-05 06:23:30  esta por cargarse
+[2024-01-05 14:03:44 >> INFO    ] el archivo es un txt
+[2024-01-05 14:03:44 >> INFO    ] cargando archivo de texto
+[2024-01-05 14:03:45 >> INFO    ] Creacion Tabla temporal
+[2024-01-05 14:06:05 >> INFO    ] Tiempo total de ejecucion: 140.78478980064392 de 2024-01-05 06:23:30 - PAGOS_20240105.txt
+[2024-01-05 14:06:19 >> INFO    ]  archivo a cargar2024-01-05 07:13:10 - PAGOS_MOVIL_20240105_.txt
+[2024-01-05 14:06:19 >> INFO    ] La base 'PAGOS_MOVIL_20240105_.txt' del 2024-01-05 07:13:10  esta por cargarse
+[2024-01-05 14:06:19 >> INFO    ] el archivo es un txt
+[2024-01-05 14:06:19 >> INFO    ] cargando archivo de texto
+[2024-01-05 14:06:43 >> INFO    ] Tiempo total de ejecucion: 23.800748586654663 de 2024-01-05 07:13:10 - PAGOS_MOVIL_20240105_.txt
+[2024-01-05 14:07:23 >> INFO    ]  archivo a cargar2024-01-05 06:23:30 - PAGOS_20240105.txt
+[2024-01-05 14:07:23 >> INFO    ] La base 'PAGOS_20240105.txt' del 2024-01-05 06:23:30  esta por cargarse
+[2024-01-05 14:07:23 >> INFO    ] el archivo es un txt
+[2024-01-05 14:07:23 >> INFO    ] cargando archivo de texto
+[2024-01-05 14:08:37 >> INFO    ] Tiempo total de ejecucion: 74.09225869178772 de 2024-01-05 06:23:30 - PAGOS_20240105.txt
+[2024-01-05 14:09:06 >> INFO    ]  archivo a cargar2024-01-05 06:23:30 - PAGOS_20240105.txt
+[2024-01-05 14:09:06 >> INFO    ] La base 'PAGOS_20240105.txt' del 2024-01-05 06:23:30  esta por cargarse
+[2024-01-05 14:09:06 >> INFO    ] el archivo es un txt
+[2024-01-05 14:09:06 >> INFO    ] cargando archivo de texto
+[2024-01-05 14:42:43 >> INFO    ] Creacion Tabla temporal
+[2024-01-05 15:11:37 >> INFO    ] Insercion Tabla destino DW
+[2024-01-05 15:11:38 >> INFO    ] Base 'PAGOS_20240105.txt' del 2024-01-05 06:23:30  recien cargada [ToSQL]
+[2024-01-05 15:11:38 >> INFO    ] Tiempo total de ejecucion: 3752.623366355896 de 2024-01-05 06:23:30 - PAGOS_20240105.txt
+[2024-01-09 07:32:55 >> INFO    ]  archivo a cargar2024-01-06 08:14:07 - PAGOS_MOVIL_20240106_.txt
+[2024-01-09 07:32:55 >> INFO    ] La base 'PAGOS_MOVIL_20240106_.txt' del 2024-01-06 08:14:07  esta por cargarse
+[2024-01-09 07:32:55 >> INFO    ] el archivo es un txt
+[2024-01-09 07:32:55 >> INFO    ] cargando archivo de texto
+[2024-01-09 07:35:00 >> INFO    ] Tiempo total de ejecucion: 125.33854818344116 de 2024-01-06 08:14:07 - PAGOS_MOVIL_20240106_.txt
+[2024-01-09 07:37:02 >> INFO    ]  archivo a cargar2024-01-06 08:13:16 - PAGOS_VAC_20240106_.txt
+[2024-01-09 07:37:02 >> INFO    ] La base 'PAGOS_VAC_20240106_.txt' del 2024-01-06 08:13:16  esta por cargarse
+[2024-01-09 07:37:02 >> INFO    ] el archivo es un txt
+[2024-01-09 07:37:02 >> INFO    ] cargando archivo de texto
+[2024-01-09 07:37:03 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 07:37:40 >> INFO    ] Tiempo total de ejecucion: 37.59400796890259 de 2024-01-06 08:13:16 - PAGOS_VAC_20240106_.txt
+[2024-01-09 07:38:22 >> INFO    ]  archivo a cargar2024-01-05 06:23:30 - PAGOS_20240105.txt
+[2024-01-09 07:38:22 >> INFO    ] La base 'PAGOS_20240105.txt' del 2024-01-05 06:23:30  esta por cargarse
+[2024-01-09 07:38:22 >> INFO    ] el archivo es un txt
+[2024-01-09 07:38:22 >> INFO    ] cargando archivo de texto
+[2024-01-09 07:38:43 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 07:39:16 >> INFO    ] Tiempo total de ejecucion: 54.17279100418091 de 2024-01-05 06:23:30 - PAGOS_20240105.txt
+[2024-01-09 07:40:14 >> INFO    ]  archivo a cargar2024-01-05 06:23:30 - PAGOS_20240105.txt
+[2024-01-09 07:40:14 >> INFO    ] La base 'PAGOS_20240105.txt' del 2024-01-05 06:23:30  esta por cargarse
+[2024-01-09 07:40:14 >> INFO    ] el archivo es un txt
+[2024-01-09 07:40:14 >> INFO    ] cargando archivo de texto
+[2024-01-09 07:40:37 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 07:40:50 >> INFO    ] Tiempo total de ejecucion: 36.52034783363342 de 2024-01-05 06:23:30 - PAGOS_20240105.txt
+[2024-01-09 07:41:46 >> INFO    ]  archivo a cargar2024-01-05 06:23:30 - PAGOS_20240105.txt
+[2024-01-09 07:41:46 >> INFO    ] La base 'PAGOS_20240105.txt' del 2024-01-05 06:23:30  esta por cargarse
+[2024-01-09 07:41:46 >> INFO    ] el archivo es un txt
+[2024-01-09 07:41:46 >> INFO    ] cargando archivo de texto
+[2024-01-09 07:42:08 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 07:42:26 >> INFO    ] Tiempo total de ejecucion: 39.45467686653137 de 2024-01-05 06:23:30 - PAGOS_20240105.txt
+[2024-01-09 07:43:07 >> INFO    ]  archivo a cargar2024-01-09 07:18:58 - PAGOS_MOVIL_20240109_.txt
+[2024-01-09 07:43:07 >> INFO    ] La base 'PAGOS_MOVIL_20240109_.txt' del 2024-01-09 07:18:58  esta por cargarse
+[2024-01-09 07:43:07 >> INFO    ] el archivo es un txt
+[2024-01-09 07:43:07 >> INFO    ] cargando archivo de texto
+[2024-01-09 07:43:17 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 07:43:29 >> INFO    ] Tiempo total de ejecucion: 22.78654170036316 de 2024-01-09 07:18:58 - PAGOS_MOVIL_20240109_.txt
+[2024-01-09 07:43:44 >> INFO    ]  archivo a cargar2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 07:43:44 >> INFO    ] La base 'PAGOS_20240109.txt' del 2024-01-09 06:23:52  esta por cargarse
+[2024-01-09 07:43:44 >> INFO    ] el archivo es un txt
+[2024-01-09 07:43:44 >> INFO    ] cargando archivo de texto
+[2024-01-09 07:44:04 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 07:44:29 >> INFO    ] Tiempo total de ejecucion: 44.83955645561218 de 2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 07:46:07 >> INFO    ]  archivo a cargar2024-01-09 07:16:19 - PAGOS_VAC_20240109_.txt
+[2024-01-09 07:46:07 >> INFO    ] La base 'PAGOS_VAC_20240109_.txt' del 2024-01-09 07:16:19  esta por cargarse
+[2024-01-09 07:46:07 >> INFO    ] el archivo es un txt
+[2024-01-09 07:46:07 >> INFO    ] cargando archivo de texto
+[2024-01-09 07:46:08 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 07:46:10 >> INFO    ] Tiempo total de ejecucion: 3.2763869762420654 de 2024-01-09 07:16:19 - PAGOS_VAC_20240109_.txt
+[2024-01-09 07:46:25 >> INFO    ]  archivo a cargar2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 07:46:25 >> INFO    ] La base 'PAGOS_20240109.txt' del 2024-01-09 06:23:52  esta por cargarse
+[2024-01-09 07:46:25 >> INFO    ] el archivo es un txt
+[2024-01-09 07:46:25 >> INFO    ] cargando archivo de texto
+[2024-01-09 07:46:45 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 07:46:52 >> INFO    ] Tiempo total de ejecucion: 27.3690767288208 de 2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 07:48:15 >> INFO    ]  archivo a cargar2024-01-09 06:35:32 - CARTERA_FULL_STACK_20240109.txt
+[2024-01-09 07:48:15 >> INFO    ] La base 'CARTERA_FULL_STACK_20240109.txt' del 2024-01-09 06:35:32  esta por cargarse
+[2024-01-09 07:48:15 >> INFO    ] el archivo es un txt
+[2024-01-09 07:48:15 >> INFO    ] cargando archivo de texto
+[2024-01-09 07:48:16 >> INFO    ] Tiempo total de ejecucion: 0.472003698348999 de 2024-01-09 06:35:32 - CARTERA_FULL_STACK_20240109.txt
+[2024-01-09 07:48:36 >> INFO    ]  archivo a cargar2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 07:48:36 >> INFO    ] La base 'PAGOS_20240109.txt' del 2024-01-09 06:23:52  esta por cargarse
+[2024-01-09 07:48:36 >> INFO    ] el archivo es un txt
+[2024-01-09 07:48:36 >> INFO    ] cargando archivo de texto
+[2024-01-09 07:48:48 >> ERROR   ] Error en archivo: 2024-01-09 06:23:52 - PAGOS_20240109.txt
+cannot access local variable 'engine' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 302, in check_and_add
+    toSqlTxt(path,nombre_tabla,file, dic_fechas,dic_formatos,separador, columnas_tabla,cruze)
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 124, in toSqlTxt
+    resultado = engine.execute(consulta)
+                ^^^^^^
+UnboundLocalError: cannot access local variable 'engine' where it is not associated with a value
+[2024-01-09 07:48:49 >> INFO    ] Tiempo total de ejecucion: 12.453580379486084 de 2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 07:49:43 >> INFO    ]  archivo a cargar2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 07:49:43 >> INFO    ] La base 'PAGOS_20240109.txt' del 2024-01-09 06:23:52  esta por cargarse
+[2024-01-09 07:49:43 >> INFO    ] el archivo es un txt
+[2024-01-09 07:49:43 >> INFO    ] cargando archivo de texto
+[2024-01-09 07:49:54 >> ERROR   ] Error en archivo: 2024-01-09 06:23:52 - PAGOS_20240109.txt
+cannot access local variable 'engine' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 302, in check_and_add
+    toSqlTxt(path,nombre_tabla,file, dic_fechas,dic_formatos,separador, columnas_tabla,cruze)
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 124, in toSqlTxt
+    resultado = engine.execute(consulta)
+                ^^^^^^
+UnboundLocalError: cannot access local variable 'engine' where it is not associated with a value
+[2024-01-09 07:49:55 >> INFO    ] Tiempo total de ejecucion: 12.080169200897217 de 2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 08:12:36 >> INFO    ]  archivo a cargar2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 08:12:36 >> INFO    ] La base 'PAGOS_20240109.txt' del 2024-01-09 06:23:52  esta por cargarse
+[2024-01-09 08:12:36 >> INFO    ] el archivo es un txt
+[2024-01-09 08:12:36 >> INFO    ] cargando archivo de texto
+[2024-01-09 08:12:56 >> ERROR   ] Error en archivo: 2024-01-09 06:23:52 - PAGOS_20240109.txt
+'Engine' object has no attribute 'execute'
+Traceback (most recent call last):
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 303, in check_and_add
+    toSqlTxt(path,nombre_tabla,file, dic_fechas,dic_formatos,separador, columnas_tabla,cruze)
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 125, in toSqlTxt
+    resultado = engine.execute(consulta)
+                ^^^^^^^^^^^^^^
+AttributeError: 'Engine' object has no attribute 'execute'
+[2024-01-09 08:12:57 >> INFO    ] Tiempo total de ejecucion: 20.927798748016357 de 2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 08:17:13 >> INFO    ]  archivo a cargar2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 08:17:13 >> INFO    ] La base 'PAGOS_20240109.txt' del 2024-01-09 06:23:52  esta por cargarse
+[2024-01-09 08:17:13 >> INFO    ] el archivo es un txt
+[2024-01-09 08:17:13 >> INFO    ] cargando archivo de texto
+[2024-01-09 08:17:15 >> INFO    ] Tiempo total de ejecucion: 1.834489107131958 de 2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 08:17:38 >> INFO    ]  archivo a cargar2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 08:17:38 >> INFO    ] La base 'PAGOS_20240109.txt' del 2024-01-09 06:23:52  esta por cargarse
+[2024-01-09 08:17:38 >> INFO    ] el archivo es un txt
+[2024-01-09 08:17:38 >> INFO    ] cargando archivo de texto
+[2024-01-09 08:17:51 >> ERROR   ] Error en archivo: 2024-01-09 06:23:52 - PAGOS_20240109.txt
+DataFrame.__init__() got an unexpected keyword argument 'columns'
+Traceback (most recent call last):
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 303, in check_and_add
+    toSqlTxt(path,nombre_tabla,file, dic_fechas,dic_formatos,separador, columnas_tabla,cruze)
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 127, in toSqlTxt
+    dfasg = dd.DataFrame(resultado.fetchall(), columns=['CUENTA_FS'])
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DataFrame.__init__() got an unexpected keyword argument 'columns'
+[2024-01-09 08:17:52 >> INFO    ] Tiempo total de ejecucion: 14.323118448257446 de 2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 08:22:59 >> INFO    ]  archivo a cargar2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 08:22:59 >> INFO    ] La base 'PAGOS_20240109.txt' del 2024-01-09 06:23:52  esta por cargarse
+[2024-01-09 08:22:59 >> INFO    ] el archivo es un txt
+[2024-01-09 08:22:59 >> INFO    ] cargando archivo de texto
+[2024-01-09 08:23:11 >> ERROR   ] Error en archivo: 2024-01-09 06:23:52 - PAGOS_20240109.txt
+'CursorResult' object has no attribute 'compute'
+Traceback (most recent call last):
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 302, in check_and_add
+    toSqlTxt(path,nombre_tabla,file, dic_fechas,dic_formatos,separador, columnas_tabla,cruze)
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 127, in toSqlTxt
+    dfasg = dd.from_pandas(resultado.compute(), npartitions=1)
+                           ^^^^^^^^^^^^^^^^^
+AttributeError: 'CursorResult' object has no attribute 'compute'
+[2024-01-09 08:23:12 >> INFO    ] Tiempo total de ejecucion: 12.863973379135132 de 2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 08:26:32 >> INFO    ]  archivo a cargar2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 08:26:32 >> INFO    ] La base 'PAGOS_20240109.txt' del 2024-01-09 06:23:52  esta por cargarse
+[2024-01-09 08:26:32 >> INFO    ] el archivo es un txt
+[2024-01-09 08:26:32 >> INFO    ] cargando archivo de texto
+[2024-01-09 08:26:41 >> INFO    ] Tiempo total de ejecucion: 9.395323038101196 de 2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 08:26:58 >> INFO    ]  archivo a cargar2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 08:26:58 >> INFO    ] La base 'PAGOS_20240109.txt' del 2024-01-09 06:23:52  esta por cargarse
+[2024-01-09 08:26:58 >> INFO    ] el archivo es un txt
+[2024-01-09 08:26:58 >> INFO    ] cargando archivo de texto
+[2024-01-09 08:27:10 >> ERROR   ] Error en archivo: 2024-01-09 06:23:52 - PAGOS_20240109.txt
+Passing a 'dask.dataframe.core.Series' to `isin`
+Traceback (most recent call last):
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 303, in check_and_add
+    toSqlTxt(path,nombre_tabla,file, dic_fechas,dic_formatos,separador, columnas_tabla,cruze)
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 130, in toSqlTxt
+    df= dfasg[dfasg['CUENTA_FS'].isin(df[cruze[1]])]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\vem\Lib\site-packages\dask\dataframe\core.py", line 4339, in isin
+    return super().isin(values)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\vem\Lib\site-packages\dask\dataframe\core.py", line 3581, in isin
+    raise NotImplementedError("Passing a %r to `isin`" % typename(type(values)))
+NotImplementedError: Passing a 'dask.dataframe.core.Series' to `isin`
+[2024-01-09 08:27:10 >> INFO    ] Tiempo total de ejecucion: 11.960789918899536 de 2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 08:31:39 >> INFO    ]  archivo a cargar2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 08:31:39 >> INFO    ] La base 'PAGOS_20240109.txt' del 2024-01-09 06:23:52  esta por cargarse
+[2024-01-09 08:31:39 >> INFO    ] el archivo es un txt
+[2024-01-09 08:31:39 >> INFO    ] cargando archivo de texto
+[2024-01-09 08:31:54 >> ERROR   ] Error en archivo: 2024-01-09 06:23:52 - PAGOS_20240109.txt
+Passing a 'dask.dataframe.core.Series' to `isin`
+Traceback (most recent call last):
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 303, in check_and_add
+    toSqlTxt(path,nombre_tabla,file, dic_fechas,dic_formatos,separador, columnas_tabla,cruze)
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 130, in toSqlTxt
+    df= dfasg[dfasg['CUENTA_FS'].isin(df[cruze[1]])]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\vem\Lib\site-packages\dask\dataframe\core.py", line 4339, in isin
+    return super().isin(values)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\vem\Lib\site-packages\dask\dataframe\core.py", line 3581, in isin
+    raise NotImplementedError("Passing a %r to `isin`" % typename(type(values)))
+NotImplementedError: Passing a 'dask.dataframe.core.Series' to `isin`
+[2024-01-09 08:31:55 >> INFO    ] Tiempo total de ejecucion: 15.262039184570312 de 2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 08:33:21 >> INFO    ]  archivo a cargar2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 08:33:21 >> INFO    ] La base 'PAGOS_20240109.txt' del 2024-01-09 06:23:52  esta por cargarse
+[2024-01-09 08:33:21 >> INFO    ] el archivo es un txt
+[2024-01-09 08:33:21 >> INFO    ] cargando archivo de texto
+[2024-01-09 08:34:00 >> INFO    ] Base 'PAGOS_20240109.txt' del 2024-01-09 06:23:52  recien cargada [ToSQL]
+[2024-01-09 08:34:00 >> INFO    ] Tiempo total de ejecucion: 38.86197543144226 de 2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 08:35:35 >> INFO    ]  archivo a cargar2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 08:35:35 >> INFO    ] La base 'PAGOS_20240109.txt' del 2024-01-09 06:23:52  esta por cargarse
+[2024-01-09 08:35:35 >> INFO    ] el archivo es un txt
+[2024-01-09 08:35:35 >> INFO    ] cargando archivo de texto
+[2024-01-09 08:36:09 >> INFO    ] Columna 0 agregada.
+[2024-01-09 08:36:09 >> ERROR   ] 'DataFrame' object has no attribute 'repartition'
+Traceback (most recent call last):
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 159, in toSqlTxt
+    df.repartition(npartitions=10)
+    ^^^^^^^^^^^^^^
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\vem\Lib\site-packages\pandas\core\generic.py", line 5989, in __getattr__
+    return object.__getattribute__(self, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataFrame' object has no attribute 'repartition'
+[2024-01-09 08:36:09 >> ERROR   ] Error en archivo: 2024-01-09 06:23:52 - PAGOS_20240109.txt
+'DataFrame' object has no attribute 'repartition'
+Traceback (most recent call last):
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 302, in check_and_add
+    toSqlTxt(path,nombre_tabla,file, dic_fechas,dic_formatos,separador, columnas_tabla,cruze)
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 159, in toSqlTxt
+    df.repartition(npartitions=10)
+    ^^^^^^^^^^^^^^
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\vem\Lib\site-packages\pandas\core\generic.py", line 5989, in __getattr__
+    return object.__getattribute__(self, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataFrame' object has no attribute 'repartition'
+[2024-01-09 08:36:10 >> INFO    ] Tiempo total de ejecucion: 35.15535807609558 de 2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 08:39:49 >> INFO    ]  archivo a cargar2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 08:39:49 >> INFO    ] La base 'PAGOS_20240109.txt' del 2024-01-09 06:23:52  esta por cargarse
+[2024-01-09 08:39:49 >> INFO    ] el archivo es un txt
+[2024-01-09 08:39:49 >> INFO    ] cargando archivo de texto
+[2024-01-09 08:40:24 >> ERROR   ] 'DataFrame' object has no attribute 'repartition'
+Traceback (most recent call last):
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 159, in toSqlTxt
+    df.repartition(npartitions=10)
+    ^^^^^^^^^^^^^^
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\vem\Lib\site-packages\pandas\core\generic.py", line 5989, in __getattr__
+    return object.__getattribute__(self, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataFrame' object has no attribute 'repartition'
+[2024-01-09 08:40:24 >> ERROR   ] Error en archivo: 2024-01-09 06:23:52 - PAGOS_20240109.txt
+'DataFrame' object has no attribute 'repartition'
+Traceback (most recent call last):
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 302, in check_and_add
+    toSqlTxt(path,nombre_tabla,file, dic_fechas,dic_formatos,separador, columnas_tabla,cruze)
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 159, in toSqlTxt
+    df.repartition(npartitions=10)
+    ^^^^^^^^^^^^^^
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\vem\Lib\site-packages\pandas\core\generic.py", line 5989, in __getattr__
+    return object.__getattribute__(self, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataFrame' object has no attribute 'repartition'
+[2024-01-09 08:40:25 >> INFO    ] Tiempo total de ejecucion: 35.205878019332886 de 2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 08:47:13 >> INFO    ]  archivo a cargar2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 08:47:13 >> INFO    ] La base 'PAGOS_20240109.txt' del 2024-01-09 06:23:52  esta por cargarse
+[2024-01-09 08:47:13 >> INFO    ] el archivo es un txt
+[2024-01-09 08:47:13 >> INFO    ] cargando archivo de texto
+[2024-01-09 08:47:21 >> INFO    ] Tiempo total de ejecucion: 8.44295597076416 de 2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 08:47:37 >> INFO    ]  archivo a cargar2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 08:47:37 >> INFO    ] La base 'PAGOS_20240109.txt' del 2024-01-09 06:23:52  esta por cargarse
+[2024-01-09 08:47:37 >> INFO    ] el archivo es un txt
+[2024-01-09 08:47:37 >> INFO    ] cargando archivo de texto
+[2024-01-09 08:48:11 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 08:48:11 >> ERROR   ] NDFrame.to_sql() got an unexpected keyword argument 'parallel'
+Traceback (most recent call last):
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 166, in toSqlTxt
+    df.to_sql(tmp.name, cdn_connection, if_exists='append',index=False,parallel=True)
+TypeError: NDFrame.to_sql() got an unexpected keyword argument 'parallel'
+[2024-01-09 08:48:11 >> ERROR   ] Error en archivo: 2024-01-09 06:23:52 - PAGOS_20240109.txt
+NDFrame.to_sql() got an unexpected keyword argument 'parallel'
+Traceback (most recent call last):
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 302, in check_and_add
+    toSqlTxt(path,nombre_tabla,file, dic_fechas,dic_formatos,separador, columnas_tabla,cruze)
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 166, in toSqlTxt
+    df.to_sql(tmp.name, cdn_connection, if_exists='append',index=False,parallel=True)
+TypeError: NDFrame.to_sql() got an unexpected keyword argument 'parallel'
+[2024-01-09 08:48:12 >> INFO    ] Tiempo total de ejecucion: 35.09888029098511 de 2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 08:49:20 >> INFO    ]  archivo a cargar2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 08:49:20 >> INFO    ] La base 'PAGOS_20240109.txt' del 2024-01-09 06:23:52  esta por cargarse
+[2024-01-09 08:49:20 >> INFO    ] el archivo es un txt
+[2024-01-09 08:49:20 >> INFO    ] cargando archivo de texto
+[2024-01-09 08:49:26 >> INFO    ] Tiempo total de ejecucion: 5.825249433517456 de 2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 08:49:49 >> INFO    ]  archivo a cargar2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 08:49:49 >> INFO    ] La base 'PAGOS_20240109.txt' del 2024-01-09 06:23:52  esta por cargarse
+[2024-01-09 08:49:49 >> INFO    ] el archivo es un txt
+[2024-01-09 08:49:49 >> INFO    ] cargando archivo de texto
+[2024-01-09 08:50:24 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 08:50:24 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 08:50:25 >> INFO    ] Base 'PAGOS_20240109.txt' del 2024-01-09 06:23:52  recien cargada [ToSQL]
+[2024-01-09 08:50:25 >> INFO    ] Tiempo total de ejecucion: 36.025917768478394 de 2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 08:52:03 >> INFO    ]  archivo a cargar2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 08:52:03 >> INFO    ] La base 'PAGOS_20240109.txt' del 2024-01-09 06:23:52  esta por cargarse
+[2024-01-09 08:52:03 >> INFO    ] el archivo es un txt
+[2024-01-09 08:52:03 >> INFO    ] cargando archivo de texto
+[2024-01-09 08:52:51 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 08:52:51 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 08:52:52 >> INFO    ] Base 'PAGOS_20240109.txt' del 2024-01-09 06:23:52  recien cargada [ToSQL]
+[2024-01-09 08:52:52 >> INFO    ] Tiempo total de ejecucion: 49.246744871139526 de 2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 09:00:38 >> INFO    ]  archivo a cargar2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 09:00:38 >> INFO    ] La base 'PAGOS_20240109.txt' del 2024-01-09 06:23:52  esta por cargarse
+[2024-01-09 09:00:38 >> INFO    ] el archivo es un txt
+[2024-01-09 09:00:38 >> INFO    ] cargando archivo de texto
+[2024-01-09 09:01:28 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 09:01:28 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 09:01:29 >> INFO    ] Base 'PAGOS_20240109.txt' del 2024-01-09 06:23:52  recien cargada [ToSQL]
+[2024-01-09 09:01:29 >> INFO    ] Tiempo total de ejecucion: 51.61451077461243 de 2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 09:12:42 >> INFO    ]  archivo a cargar2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 09:12:42 >> INFO    ] La base 'PAGOS_20240109.txt' del 2024-01-09 06:23:52  esta por cargarse
+[2024-01-09 09:12:42 >> INFO    ] el archivo es un txt
+[2024-01-09 09:12:42 >> INFO    ] cargando archivo de texto
+[2024-01-09 09:13:21 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 09:13:21 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 09:13:22 >> INFO    ] Base 'PAGOS_20240109.txt' del 2024-01-09 06:23:52  recien cargada [ToSQL]
+[2024-01-09 09:13:22 >> INFO    ] Tiempo total de ejecucion: 39.961891651153564 de 2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 09:32:47 >> INFO    ]  archivo a cargar2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 09:32:47 >> INFO    ] La base 'PAGOS_20240109.txt' del 2024-01-09 06:23:52  esta por cargarse
+[2024-01-09 09:32:47 >> INFO    ] el archivo es un txt
+[2024-01-09 09:32:47 >> INFO    ] cargando archivo de texto
+[2024-01-09 09:33:47 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 09:33:48 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 09:33:48 >> INFO    ] Base 'PAGOS_20240109.txt' del 2024-01-09 06:23:52  recien cargada [ToSQL]
+[2024-01-09 09:33:48 >> INFO    ] Tiempo total de ejecucion: 61.83208632469177 de 2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 09:37:01 >> INFO    ]  archivo a cargar2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 09:37:01 >> INFO    ] La base 'PAGOS_20240109.txt' del 2024-01-09 06:23:52  esta por cargarse
+[2024-01-09 09:37:01 >> INFO    ] el archivo es un txt
+[2024-01-09 09:37:01 >> INFO    ] cargando archivo de texto
+[2024-01-09 09:37:45 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 09:37:46 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 09:37:47 >> INFO    ] Base 'PAGOS_20240109.txt' del 2024-01-09 06:23:52  recien cargada [ToSQL]
+[2024-01-09 09:37:47 >> INFO    ] Tiempo total de ejecucion: 45.95496129989624 de 2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 09:40:51 >> INFO    ]  archivo a cargar2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 09:40:51 >> INFO    ] La base 'PAGOS_20240109.txt' del 2024-01-09 06:23:52  esta por cargarse
+[2024-01-09 09:40:51 >> INFO    ] el archivo es un txt
+[2024-01-09 09:40:51 >> INFO    ] cargando archivo de texto
+[2024-01-09 09:41:33 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 09:41:33 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 09:41:34 >> INFO    ] Base 'PAGOS_20240109.txt' del 2024-01-09 06:23:52  recien cargada [ToSQL]
+[2024-01-09 09:41:34 >> INFO    ] Tiempo total de ejecucion: 43.73520565032959 de 2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 09:46:46 >> INFO    ]  archivo a cargar2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 09:46:46 >> INFO    ] La base 'PAGOS_20240109.txt' del 2024-01-09 06:23:52  esta por cargarse
+[2024-01-09 09:46:46 >> INFO    ] el archivo es un txt
+[2024-01-09 09:46:46 >> INFO    ] cargando archivo de texto
+[2024-01-09 09:47:10 >> ERROR   ] Error en archivo: 2024-01-09 06:23:52 - PAGOS_20240109.txt
+Metadata inference failed in `apply`.
+
+You have supplied a custom function and Dask is unable to 
+determine the type of output that that function returns. 
+
+To resolve this please provide a meta= keyword.
+The docstring of the Dask function you ran should have more information.
+
+Original error is below:
+------------------------
+TypeError("'module' object is not callable")
+
+Traceback:
+---------
+  File "C:\python36\Lib\site-packages\dask\dataframe\utils.py", line 194, in raise_on_meta_error
+    yield
+  File "C:\python36\Lib\site-packages\dask\dataframe\core.py", line 7055, in _emulate
+    return func(*_extract_meta(args, True), **_extract_meta(kwargs, True))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python36\Lib\site-packages\dask\utils.py", line 1110, in __call__
+    return getattr(__obj, self.method)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python36\Lib\site-packages\pandas\core\series.py", line 4626, in apply
+    return SeriesApply(self, func, convert_dtype, args, kwargs).apply()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python36\Lib\site-packages\pandas\core\apply.py", line 1025, in apply
+    return self.apply_standard()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python36\Lib\site-packages\pandas\core\apply.py", line 1076, in apply_standard
+    mapped = lib.map_infer(
+             ^^^^^^^^^^^^^^
+  File "pandas\_libs\lib.pyx", line 2834, in pandas._libs.lib.map_infer
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 92, in convertir_fecha
+    x = datetime(1900, 1, 1)
+        ^^^^^^^^^^^^^^^^^^^^
+Traceback (most recent call last):
+  File "C:\python36\Lib\site-packages\dask\dataframe\utils.py", line 194, in raise_on_meta_error
+    yield
+  File "C:\python36\Lib\site-packages\dask\dataframe\core.py", line 7055, in _emulate
+    return func(*_extract_meta(args, True), **_extract_meta(kwargs, True))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python36\Lib\site-packages\dask\utils.py", line 1110, in __call__
+    return getattr(__obj, self.method)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python36\Lib\site-packages\pandas\core\series.py", line 4626, in apply
+    return SeriesApply(self, func, convert_dtype, args, kwargs).apply()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python36\Lib\site-packages\pandas\core\apply.py", line 1025, in apply
+    return self.apply_standard()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python36\Lib\site-packages\pandas\core\apply.py", line 1076, in apply_standard
+    mapped = lib.map_infer(
+             ^^^^^^^^^^^^^^
+  File "pandas\_libs\lib.pyx", line 2834, in pandas._libs.lib.map_infer
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 92, in convertir_fecha
+    x = datetime(1900, 1, 1)
+        ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'module' object is not callable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 303, in check_and_add
+    toSqlTxt(path,nombre_tabla,file, dic_fechas,dic_formatos,separador, columnas_tabla,cruze)
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 136, in toSqlTxt
+    df[fecha_mod]=df[fecha_mod].apply(convertir_fecha) # , meta=(f"{fecha_mod}", "str")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python36\Lib\site-packages\dask\dataframe\core.py", line 4526, in apply
+    meta = _emulate(
+           ^^^^^^^^^
+  File "C:\python36\Lib\site-packages\dask\dataframe\core.py", line 7054, in _emulate
+    with raise_on_meta_error(funcname(func), udf=udf), check_numeric_only_deprecation():
+  File "C:\python36\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\python36\Lib\site-packages\dask\dataframe\utils.py", line 215, in raise_on_meta_error
+    raise ValueError(msg) from e
+ValueError: Metadata inference failed in `apply`.
+
+You have supplied a custom function and Dask is unable to 
+determine the type of output that that function returns. 
+
+To resolve this please provide a meta= keyword.
+The docstring of the Dask function you ran should have more information.
+
+Original error is below:
+------------------------
+TypeError("'module' object is not callable")
+
+Traceback:
+---------
+  File "C:\python36\Lib\site-packages\dask\dataframe\utils.py", line 194, in raise_on_meta_error
+    yield
+  File "C:\python36\Lib\site-packages\dask\dataframe\core.py", line 7055, in _emulate
+    return func(*_extract_meta(args, True), **_extract_meta(kwargs, True))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python36\Lib\site-packages\dask\utils.py", line 1110, in __call__
+    return getattr(__obj, self.method)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python36\Lib\site-packages\pandas\core\series.py", line 4626, in apply
+    return SeriesApply(self, func, convert_dtype, args, kwargs).apply()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python36\Lib\site-packages\pandas\core\apply.py", line 1025, in apply
+    return self.apply_standard()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\python36\Lib\site-packages\pandas\core\apply.py", line 1076, in apply_standard
+    mapped = lib.map_infer(
+             ^^^^^^^^^^^^^^
+  File "pandas\_libs\lib.pyx", line 2834, in pandas._libs.lib.map_infer
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 92, in convertir_fecha
+    x = datetime(1900, 1, 1)
+        ^^^^^^^^^^^^^^^^^^^^
+
+[2024-01-09 09:47:11 >> INFO    ] Tiempo total de ejecucion: 25.04531240463257 de 2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 09:49:48 >> INFO    ]  archivo a cargar2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 09:49:48 >> INFO    ] La base 'PAGOS_20240109.txt' del 2024-01-09 06:23:52  esta por cargarse
+[2024-01-09 09:49:48 >> INFO    ] el archivo es un txt
+[2024-01-09 09:49:48 >> INFO    ] cargando archivo de texto
+[2024-01-09 09:50:03 >> INFO    ] Tiempo total de ejecucion: 14.264021873474121 de 2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 10:29:23 >> INFO    ]  archivo a cargar2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 10:29:23 >> INFO    ] La base 'PAGOS_20240109.txt' del 2024-01-09 06:23:52  esta por cargarse
+[2024-01-09 10:29:23 >> INFO    ] el archivo es un txt
+[2024-01-09 10:29:23 >> INFO    ] cargando archivo de texto
+[2024-01-09 10:29:52 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 10:30:22 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 10:30:22 >> INFO    ] Base 'PAGOS_20240109.txt' del 2024-01-09 06:23:52  recien cargada [ToSQL]
+[2024-01-09 10:30:22 >> INFO    ] Tiempo total de ejecucion: 59.348320960998535 de 2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 10:37:49 >> INFO    ]  archivo a cargar2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 10:37:49 >> INFO    ] La base 'PAGOS_20240109.txt' del 2024-01-09 06:23:52  esta por cargarse
+[2024-01-09 10:37:49 >> INFO    ] el archivo es un txt
+[2024-01-09 10:37:49 >> INFO    ] cargando archivo de texto
+[2024-01-09 10:38:21 >> INFO    ] Tiempo total de ejecucion: 31.9293053150177 de 2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 10:38:50 >> INFO    ]  archivo a cargar2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 10:38:50 >> INFO    ] La base 'PAGOS_20240109.txt' del 2024-01-09 06:23:52  esta por cargarse
+[2024-01-09 10:38:50 >> INFO    ] el archivo es un txt
+[2024-01-09 10:38:50 >> INFO    ] cargando archivo de texto
+[2024-01-09 10:39:14 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 10:39:33 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 10:39:33 >> INFO    ] Base 'PAGOS_20240109.txt' del 2024-01-09 06:23:52  recien cargada [ToSQL]
+[2024-01-09 10:39:33 >> INFO    ] Tiempo total de ejecucion: 43.202200174331665 de 2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 10:42:29 >> INFO    ]  archivo a cargar2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 10:42:29 >> INFO    ] La base 'PAGOS_20240109.txt' del 2024-01-09 06:23:52  esta por cargarse
+[2024-01-09 10:42:29 >> INFO    ] el archivo es un txt
+[2024-01-09 10:42:29 >> INFO    ] cargando archivo de texto
+[2024-01-09 10:42:51 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 10:43:07 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 10:43:08 >> INFO    ] Base 'PAGOS_20240109.txt' del 2024-01-09 06:23:52  recien cargada [ToSQL]
+[2024-01-09 10:43:08 >> INFO    ] Tiempo total de ejecucion: 39.15108942985535 de 2024-01-09 06:23:52 - PAGOS_20240109.txt
+[2024-01-09 11:03:16 >> INFO    ]  archivo a cargar2024-01-09 07:18:58 - PAGOS_MOVIL_20240109_.txt
+[2024-01-09 11:03:16 >> INFO    ] La base 'PAGOS_MOVIL_20240109_.txt' del 2024-01-09 07:18:58  esta por cargarse
+[2024-01-09 11:03:16 >> INFO    ] el archivo es un txt
+[2024-01-09 11:03:16 >> INFO    ] cargando archivo de texto
+[2024-01-09 11:03:49 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 11:04:00 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 11:04:01 >> INFO    ] Base 'PAGOS_MOVIL_20240109_.txt' del 2024-01-09 07:18:58  recien cargada [ToSQL]
+[2024-01-09 11:04:01 >> INFO    ] Tiempo total de ejecucion: 45.41588592529297 de 2024-01-09 07:18:58 - PAGOS_MOVIL_20240109_.txt
+[2024-01-09 11:04:02 >> INFO    ]  archivo a cargar2024-01-09 07:16:19 - PAGOS_VAC_20240109_.txt
+[2024-01-09 11:04:02 >> INFO    ] La base 'PAGOS_VAC_20240109_.txt' del 2024-01-09 07:16:19  esta por cargarse
+[2024-01-09 11:04:02 >> INFO    ] el archivo es un txt
+[2024-01-09 11:04:02 >> INFO    ] cargando archivo de texto
+[2024-01-09 11:04:09 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 11:04:12 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 11:04:13 >> INFO    ] Base 'PAGOS_VAC_20240109_.txt' del 2024-01-09 07:16:19  recien cargada [ToSQL]
+[2024-01-09 11:04:13 >> INFO    ] Tiempo total de ejecucion: 11.614956617355347 de 2024-01-09 07:16:19 - PAGOS_VAC_20240109_.txt
+[2024-01-09 11:07:12 >> INFO    ]  archivo a cargar2024-01-09 07:18:58 - PAGOS_MOVIL_20240109_.txt
+[2024-01-09 11:07:12 >> INFO    ] La base 'PAGOS_MOVIL_20240109_.txt' del 2024-01-09 07:18:58  esta por cargarse
+[2024-01-09 11:07:12 >> INFO    ] el archivo es un txt
+[2024-01-09 11:07:12 >> INFO    ] cargando archivo de texto
+[2024-01-09 11:07:23 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 11:07:33 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 11:07:34 >> INFO    ] Base 'PAGOS_MOVIL_20240109_.txt' del 2024-01-09 07:18:58  recien cargada [ToSQL]
+[2024-01-09 11:07:34 >> INFO    ] Tiempo total de ejecucion: 21.91137409210205 de 2024-01-09 07:18:58 - PAGOS_MOVIL_20240109_.txt
+[2024-01-09 11:07:34 >> INFO    ]  archivo a cargar2024-01-09 07:16:19 - PAGOS_VAC_20240109_.txt
+[2024-01-09 11:07:34 >> INFO    ] La base 'PAGOS_VAC_20240109_.txt' del 2024-01-09 07:16:19  esta por cargarse
+[2024-01-09 11:07:34 >> INFO    ] el archivo es un txt
+[2024-01-09 11:07:34 >> INFO    ] cargando archivo de texto
+[2024-01-09 11:07:40 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 11:07:43 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 11:07:44 >> INFO    ] Base 'PAGOS_VAC_20240109_.txt' del 2024-01-09 07:16:19  recien cargada [ToSQL]
+[2024-01-09 11:07:44 >> INFO    ] Tiempo total de ejecucion: 10.25265383720398 de 2024-01-09 07:16:19 - PAGOS_VAC_20240109_.txt
+[2024-01-09 11:07:44 >> INFO    ]  archivo a cargar2024-01-09 06:35:32 - CARTERA_FULL_STACK_20240109.txt
+[2024-01-09 11:07:44 >> INFO    ] La base 'CARTERA_FULL_STACK_20240109.txt' del 2024-01-09 06:35:32  esta por cargarse
+[2024-01-09 11:07:44 >> INFO    ] el archivo es un txt
+[2024-01-09 11:07:44 >> INFO    ] cargando archivo de texto
+[2024-01-09 11:08:44 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 11:09:15 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 11:09:15 >> INFO    ] Base 'CARTERA_FULL_STACK_20240109.txt' del 2024-01-09 06:35:32  recien cargada [ToSQL]
+[2024-01-09 11:09:15 >> INFO    ] Tiempo total de ejecucion: 91.38732695579529 de 2024-01-09 06:35:32 - CARTERA_FULL_STACK_20240109.txt
+[2024-01-09 12:12:50 >> INFO    ]  archivo a cargar2024-01-08 07:58:43 - con_fs_Potencial_pyme_Bloqueo_C23_v1_240108.txt
+[2024-01-09 12:12:50 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C23_v1_240108.txt' del 2024-01-08 07:58:43  esta por cargarse
+[2024-01-09 12:12:50 >> INFO    ] el archivo es un txt
+[2024-01-09 12:12:50 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:12:51 >> ERROR   ] Error en archivo: 2024-01-08 07:58:43 - con_fs_Potencial_pyme_Bloqueo_C23_v1_240108.txt
+list index out of range
+Traceback (most recent call last):
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 301, in check_and_add
+    toSqlTxt(path,nombre_tabla,file, dic_fechas,dic_formatos,separador, columnas_tabla,cruze)
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 121, in toSqlTxt
+    Cruze = cruze[0]
+            ~~~~~^^^
+IndexError: list index out of range
+[2024-01-09 12:12:52 >> INFO    ] Tiempo total de ejecucion: 1.4748859405517578 de 2024-01-08 07:58:43 - con_fs_Potencial_pyme_Bloqueo_C23_v1_240108.txt
+[2024-01-09 12:12:52 >> INFO    ]  archivo a cargar2024-01-08 07:52:38 - con_fs_Potencial_pyme_Bloqueo_C1_v1_240108.txt
+[2024-01-09 12:12:52 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C1_v1_240108.txt' del 2024-01-08 07:52:38  esta por cargarse
+[2024-01-09 12:12:52 >> INFO    ] el archivo es un txt
+[2024-01-09 12:12:52 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:12:52 >> ERROR   ] Error en archivo: 2024-01-08 07:52:38 - con_fs_Potencial_pyme_Bloqueo_C1_v1_240108.txt
+list index out of range
+Traceback (most recent call last):
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 301, in check_and_add
+    toSqlTxt(path,nombre_tabla,file, dic_fechas,dic_formatos,separador, columnas_tabla,cruze)
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 121, in toSqlTxt
+    Cruze = cruze[0]
+            ~~~~~^^^
+IndexError: list index out of range
+[2024-01-09 12:12:52 >> INFO    ] Tiempo total de ejecucion: 0.7621309757232666 de 2024-01-08 07:52:38 - con_fs_Potencial_pyme_Bloqueo_C1_v1_240108.txt
+[2024-01-09 12:12:52 >> INFO    ]  archivo a cargar2024-01-08 08:00:21 - con_fs_Potencial_pyme_Bloqueo_C26_v1_240108.txt
+[2024-01-09 12:12:52 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C26_v1_240108.txt' del 2024-01-08 08:00:21  esta por cargarse
+[2024-01-09 12:12:52 >> INFO    ] el archivo es un txt
+[2024-01-09 12:12:52 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:12:53 >> ERROR   ] Error en archivo: 2024-01-08 08:00:21 - con_fs_Potencial_pyme_Bloqueo_C26_v1_240108.txt
+list index out of range
+Traceback (most recent call last):
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 301, in check_and_add
+    toSqlTxt(path,nombre_tabla,file, dic_fechas,dic_formatos,separador, columnas_tabla,cruze)
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 121, in toSqlTxt
+    Cruze = cruze[0]
+            ~~~~~^^^
+IndexError: list index out of range
+[2024-01-09 12:12:53 >> INFO    ] Tiempo total de ejecucion: 0.764991044998169 de 2024-01-08 08:00:21 - con_fs_Potencial_pyme_Bloqueo_C26_v1_240108.txt
+[2024-01-09 12:12:53 >> INFO    ]  archivo a cargar2024-01-08 07:52:36 - con_fs_Potencial_pyme_Bloqueo_C20_v1_240108.txt
+[2024-01-09 12:12:53 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C20_v1_240108.txt' del 2024-01-08 07:52:36  esta por cargarse
+[2024-01-09 12:12:53 >> INFO    ] el archivo es un txt
+[2024-01-09 12:12:53 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:12:53 >> ERROR   ] Error en archivo: 2024-01-08 07:52:36 - con_fs_Potencial_pyme_Bloqueo_C20_v1_240108.txt
+list index out of range
+Traceback (most recent call last):
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 301, in check_and_add
+    toSqlTxt(path,nombre_tabla,file, dic_fechas,dic_formatos,separador, columnas_tabla,cruze)
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 121, in toSqlTxt
+    Cruze = cruze[0]
+            ~~~~~^^^
+IndexError: list index out of range
+[2024-01-09 12:12:54 >> INFO    ] Tiempo total de ejecucion: 0.8011116981506348 de 2024-01-08 07:52:36 - con_fs_Potencial_pyme_Bloqueo_C20_v1_240108.txt
+[2024-01-09 12:12:54 >> INFO    ]  archivo a cargar2024-01-08 08:00:21 - con_fs_Potencial_pyme_Bloqueo_C16_v1_240108.txt
+[2024-01-09 12:12:54 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C16_v1_240108.txt' del 2024-01-08 08:00:21  esta por cargarse
+[2024-01-09 12:12:54 >> INFO    ] el archivo es un txt
+[2024-01-09 12:12:54 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:12:54 >> ERROR   ] Error en archivo: 2024-01-08 08:00:21 - con_fs_Potencial_pyme_Bloqueo_C16_v1_240108.txt
+list index out of range
+Traceback (most recent call last):
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 301, in check_and_add
+    toSqlTxt(path,nombre_tabla,file, dic_fechas,dic_formatos,separador, columnas_tabla,cruze)
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 121, in toSqlTxt
+    Cruze = cruze[0]
+            ~~~~~^^^
+IndexError: list index out of range
+[2024-01-09 12:12:55 >> INFO    ] Tiempo total de ejecucion: 0.7822775840759277 de 2024-01-08 08:00:21 - con_fs_Potencial_pyme_Bloqueo_C16_v1_240108.txt
+[2024-01-09 12:12:55 >> INFO    ]  archivo a cargar2024-01-08 07:58:43 - con_fs_Potencial_pyme_Bloqueo_C12_v1_240108.txt
+[2024-01-09 12:12:55 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C12_v1_240108.txt' del 2024-01-08 07:58:43  esta por cargarse
+[2024-01-09 12:12:55 >> INFO    ] el archivo es un txt
+[2024-01-09 12:12:55 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:12:55 >> ERROR   ] Error en archivo: 2024-01-08 07:58:43 - con_fs_Potencial_pyme_Bloqueo_C12_v1_240108.txt
+list index out of range
+Traceback (most recent call last):
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 301, in check_and_add
+    toSqlTxt(path,nombre_tabla,file, dic_fechas,dic_formatos,separador, columnas_tabla,cruze)
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 121, in toSqlTxt
+    Cruze = cruze[0]
+            ~~~~~^^^
+IndexError: list index out of range
+[2024-01-09 12:12:59 >> INFO    ] Tiempo total de ejecucion: 3.925847291946411 de 2024-01-08 07:58:43 - con_fs_Potencial_pyme_Bloqueo_C12_v1_240108.txt
+[2024-01-09 12:12:59 >> INFO    ]  archivo a cargar2024-01-08 07:59:16 - con_fs_Potencial_pyme_Bloqueo_C9_v1_240108.txt
+[2024-01-09 12:12:59 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C9_v1_240108.txt' del 2024-01-08 07:59:16  esta por cargarse
+[2024-01-09 12:12:59 >> INFO    ] el archivo es un txt
+[2024-01-09 12:12:59 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:12:59 >> ERROR   ] Error en archivo: 2024-01-08 07:59:16 - con_fs_Potencial_pyme_Bloqueo_C9_v1_240108.txt
+list index out of range
+Traceback (most recent call last):
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 301, in check_and_add
+    toSqlTxt(path,nombre_tabla,file, dic_fechas,dic_formatos,separador, columnas_tabla,cruze)
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 121, in toSqlTxt
+    Cruze = cruze[0]
+            ~~~~~^^^
+IndexError: list index out of range
+[2024-01-09 12:13:00 >> INFO    ] Tiempo total de ejecucion: 0.8747520446777344 de 2024-01-08 07:59:16 - con_fs_Potencial_pyme_Bloqueo_C9_v1_240108.txt
+[2024-01-09 12:14:56 >> INFO    ]  archivo a cargar2024-01-08 08:00:21 - con_fs_Potencial_pyme_Bloqueo_C26_v1_240108.txt
+[2024-01-09 12:14:56 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C26_v1_240108.txt' del 2024-01-08 08:00:21  esta por cargarse
+[2024-01-09 12:14:56 >> INFO    ] el archivo es un txt
+[2024-01-09 12:14:56 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:14:56 >> ERROR   ] Error en archivo: 2024-01-08 08:00:21 - con_fs_Potencial_pyme_Bloqueo_C26_v1_240108.txt
+cannot access local variable 'Cruze' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 304, in check_and_add
+    toSqlTxt(path,nombre_tabla,file, dic_fechas,dic_formatos,separador, columnas_tabla,cruze)
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 125, in toSqlTxt
+    if Cruze == "1":
+       ^^^^^
+UnboundLocalError: cannot access local variable 'Cruze' where it is not associated with a value
+[2024-01-09 12:14:57 >> INFO    ] Tiempo total de ejecucion: 0.9047231674194336 de 2024-01-08 08:00:21 - con_fs_Potencial_pyme_Bloqueo_C26_v1_240108.txt
+[2024-01-09 12:14:57 >> INFO    ]  archivo a cargar2024-01-08 07:58:43 - con_fs_Potencial_pyme_Bloqueo_C23_v1_240108.txt
+[2024-01-09 12:14:57 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C23_v1_240108.txt' del 2024-01-08 07:58:43  esta por cargarse
+[2024-01-09 12:14:57 >> INFO    ] el archivo es un txt
+[2024-01-09 12:14:57 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:14:57 >> ERROR   ] Error en archivo: 2024-01-08 07:58:43 - con_fs_Potencial_pyme_Bloqueo_C23_v1_240108.txt
+cannot access local variable 'Cruze' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 304, in check_and_add
+    toSqlTxt(path,nombre_tabla,file, dic_fechas,dic_formatos,separador, columnas_tabla,cruze)
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 125, in toSqlTxt
+    if Cruze == "1":
+       ^^^^^
+UnboundLocalError: cannot access local variable 'Cruze' where it is not associated with a value
+[2024-01-09 12:14:58 >> INFO    ] Tiempo total de ejecucion: 0.771385669708252 de 2024-01-08 07:58:43 - con_fs_Potencial_pyme_Bloqueo_C23_v1_240108.txt
+[2024-01-09 12:14:58 >> INFO    ]  archivo a cargar2024-01-08 07:52:38 - con_fs_Potencial_pyme_Bloqueo_C1_v1_240108.txt
+[2024-01-09 12:14:58 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C1_v1_240108.txt' del 2024-01-08 07:52:38  esta por cargarse
+[2024-01-09 12:14:58 >> INFO    ] el archivo es un txt
+[2024-01-09 12:14:58 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:14:58 >> ERROR   ] Error en archivo: 2024-01-08 07:52:38 - con_fs_Potencial_pyme_Bloqueo_C1_v1_240108.txt
+cannot access local variable 'Cruze' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 304, in check_and_add
+    toSqlTxt(path,nombre_tabla,file, dic_fechas,dic_formatos,separador, columnas_tabla,cruze)
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 125, in toSqlTxt
+    if Cruze == "1":
+       ^^^^^
+UnboundLocalError: cannot access local variable 'Cruze' where it is not associated with a value
+[2024-01-09 12:14:58 >> INFO    ] Tiempo total de ejecucion: 0.7484281063079834 de 2024-01-08 07:52:38 - con_fs_Potencial_pyme_Bloqueo_C1_v1_240108.txt
+[2024-01-09 12:14:58 >> INFO    ]  archivo a cargar2024-01-08 08:00:21 - con_fs_Potencial_pyme_Bloqueo_C16_v1_240108.txt
+[2024-01-09 12:14:58 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C16_v1_240108.txt' del 2024-01-08 08:00:21  esta por cargarse
+[2024-01-09 12:14:58 >> INFO    ] el archivo es un txt
+[2024-01-09 12:14:58 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:14:58 >> ERROR   ] Error en archivo: 2024-01-08 08:00:21 - con_fs_Potencial_pyme_Bloqueo_C16_v1_240108.txt
+cannot access local variable 'Cruze' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 304, in check_and_add
+    toSqlTxt(path,nombre_tabla,file, dic_fechas,dic_formatos,separador, columnas_tabla,cruze)
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 125, in toSqlTxt
+    if Cruze == "1":
+       ^^^^^
+UnboundLocalError: cannot access local variable 'Cruze' where it is not associated with a value
+[2024-01-09 12:14:59 >> INFO    ] Tiempo total de ejecucion: 0.7382571697235107 de 2024-01-08 08:00:21 - con_fs_Potencial_pyme_Bloqueo_C16_v1_240108.txt
+[2024-01-09 12:14:59 >> INFO    ]  archivo a cargar2024-01-08 07:59:16 - con_fs_Potencial_pyme_Bloqueo_C9_v1_240108.txt
+[2024-01-09 12:14:59 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C9_v1_240108.txt' del 2024-01-08 07:59:16  esta por cargarse
+[2024-01-09 12:14:59 >> INFO    ] el archivo es un txt
+[2024-01-09 12:14:59 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:14:59 >> ERROR   ] Error en archivo: 2024-01-08 07:59:16 - con_fs_Potencial_pyme_Bloqueo_C9_v1_240108.txt
+cannot access local variable 'Cruze' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 304, in check_and_add
+    toSqlTxt(path,nombre_tabla,file, dic_fechas,dic_formatos,separador, columnas_tabla,cruze)
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 125, in toSqlTxt
+    if Cruze == "1":
+       ^^^^^
+UnboundLocalError: cannot access local variable 'Cruze' where it is not associated with a value
+[2024-01-09 12:15:00 >> INFO    ] Tiempo total de ejecucion: 0.8209350109100342 de 2024-01-08 07:59:16 - con_fs_Potencial_pyme_Bloqueo_C9_v1_240108.txt
+[2024-01-09 12:15:00 >> INFO    ]  archivo a cargar2024-01-08 07:58:43 - con_fs_Potencial_pyme_Bloqueo_C12_v1_240108.txt
+[2024-01-09 12:15:00 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C12_v1_240108.txt' del 2024-01-08 07:58:43  esta por cargarse
+[2024-01-09 12:15:00 >> INFO    ] el archivo es un txt
+[2024-01-09 12:15:00 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:15:00 >> ERROR   ] Error en archivo: 2024-01-08 07:58:43 - con_fs_Potencial_pyme_Bloqueo_C12_v1_240108.txt
+cannot access local variable 'Cruze' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 304, in check_and_add
+    toSqlTxt(path,nombre_tabla,file, dic_fechas,dic_formatos,separador, columnas_tabla,cruze)
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 125, in toSqlTxt
+    if Cruze == "1":
+       ^^^^^
+UnboundLocalError: cannot access local variable 'Cruze' where it is not associated with a value
+[2024-01-09 12:15:04 >> INFO    ] Tiempo total de ejecucion: 3.9363131523132324 de 2024-01-08 07:58:43 - con_fs_Potencial_pyme_Bloqueo_C12_v1_240108.txt
+[2024-01-09 12:15:04 >> INFO    ]  archivo a cargar2024-01-08 07:52:36 - con_fs_Potencial_pyme_Bloqueo_C20_v1_240108.txt
+[2024-01-09 12:15:04 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C20_v1_240108.txt' del 2024-01-08 07:52:36  esta por cargarse
+[2024-01-09 12:15:04 >> INFO    ] el archivo es un txt
+[2024-01-09 12:15:04 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:15:04 >> ERROR   ] Error en archivo: 2024-01-08 07:52:36 - con_fs_Potencial_pyme_Bloqueo_C20_v1_240108.txt
+cannot access local variable 'Cruze' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 304, in check_and_add
+    toSqlTxt(path,nombre_tabla,file, dic_fechas,dic_formatos,separador, columnas_tabla,cruze)
+  File "C:\DESARROLLOS\Movistar\Colombia\BASES_MOVISTAR_COLOMBIA\src\Controllers\controller.py", line 125, in toSqlTxt
+    if Cruze == "1":
+       ^^^^^
+UnboundLocalError: cannot access local variable 'Cruze' where it is not associated with a value
+[2024-01-09 12:15:05 >> INFO    ] Tiempo total de ejecucion: 0.7970199584960938 de 2024-01-08 07:52:36 - con_fs_Potencial_pyme_Bloqueo_C20_v1_240108.txt
+[2024-01-09 12:24:59 >> INFO    ]  archivo a cargar2024-01-08 07:58:43 - con_fs_Potencial_pyme_Bloqueo_C23_v1_240108.txt
+[2024-01-09 12:24:59 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C23_v1_240108.txt' del 2024-01-08 07:58:43  esta por cargarse
+[2024-01-09 12:24:59 >> INFO    ] el archivo es un txt
+[2024-01-09 12:24:59 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:24:59 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 12:25:03 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 12:25:03 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C23_v1_240108.txt' del 2024-01-08 07:58:43  recien cargada [ToSQL]
+[2024-01-09 12:25:03 >> INFO    ] Tiempo total de ejecucion: 4.439829349517822 de 2024-01-08 07:58:43 - con_fs_Potencial_pyme_Bloqueo_C23_v1_240108.txt
+[2024-01-09 12:25:03 >> INFO    ]  archivo a cargar2024-01-08 08:00:21 - con_fs_Potencial_pyme_Bloqueo_C16_v1_240108.txt
+[2024-01-09 12:25:03 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C16_v1_240108.txt' del 2024-01-08 08:00:21  esta por cargarse
+[2024-01-09 12:25:03 >> INFO    ] el archivo es un txt
+[2024-01-09 12:25:03 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:25:09 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 12:25:12 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 12:25:13 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C16_v1_240108.txt' del 2024-01-08 08:00:21  recien cargada [ToSQL]
+[2024-01-09 12:25:13 >> INFO    ] Tiempo total de ejecucion: 9.390462398529053 de 2024-01-08 08:00:21 - con_fs_Potencial_pyme_Bloqueo_C16_v1_240108.txt
+[2024-01-09 12:25:13 >> INFO    ]  archivo a cargar2024-01-08 07:59:16 - con_fs_Potencial_pyme_Bloqueo_C9_v1_240108.txt
+[2024-01-09 12:25:13 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C9_v1_240108.txt' del 2024-01-08 07:59:16  esta por cargarse
+[2024-01-09 12:25:13 >> INFO    ] el archivo es un txt
+[2024-01-09 12:25:13 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:25:19 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 12:25:22 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 12:25:23 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C9_v1_240108.txt' del 2024-01-08 07:59:16  recien cargada [ToSQL]
+[2024-01-09 12:25:23 >> INFO    ] Tiempo total de ejecucion: 9.801501750946045 de 2024-01-08 07:59:16 - con_fs_Potencial_pyme_Bloqueo_C9_v1_240108.txt
+[2024-01-09 12:25:23 >> INFO    ]  archivo a cargar2024-01-08 07:52:36 - con_fs_Potencial_pyme_Bloqueo_C20_v1_240108.txt
+[2024-01-09 12:25:23 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C20_v1_240108.txt' del 2024-01-08 07:52:36  esta por cargarse
+[2024-01-09 12:25:23 >> INFO    ] el archivo es un txt
+[2024-01-09 12:25:23 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:25:28 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 12:25:31 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 12:25:32 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C20_v1_240108.txt' del 2024-01-08 07:52:36  recien cargada [ToSQL]
+[2024-01-09 12:25:32 >> INFO    ] Tiempo total de ejecucion: 9.366803884506226 de 2024-01-08 07:52:36 - con_fs_Potencial_pyme_Bloqueo_C20_v1_240108.txt
+[2024-01-09 12:25:32 >> INFO    ]  archivo a cargar2024-01-08 07:52:38 - con_fs_Potencial_pyme_Bloqueo_C1_v1_240108.txt
+[2024-01-09 12:25:32 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C1_v1_240108.txt' del 2024-01-08 07:52:38  esta por cargarse
+[2024-01-09 12:25:32 >> INFO    ] el archivo es un txt
+[2024-01-09 12:25:32 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:25:38 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 12:25:41 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 12:25:42 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C1_v1_240108.txt' del 2024-01-08 07:52:38  recien cargada [ToSQL]
+[2024-01-09 12:25:42 >> INFO    ] Tiempo total de ejecucion: 9.62330937385559 de 2024-01-08 07:52:38 - con_fs_Potencial_pyme_Bloqueo_C1_v1_240108.txt
+[2024-01-09 12:25:42 >> INFO    ]  archivo a cargar2024-01-08 08:00:21 - con_fs_Potencial_pyme_Bloqueo_C26_v1_240108.txt
+[2024-01-09 12:25:42 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C26_v1_240108.txt' del 2024-01-08 08:00:21  esta por cargarse
+[2024-01-09 12:25:42 >> INFO    ] el archivo es un txt
+[2024-01-09 12:25:42 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:25:47 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 12:25:50 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 12:25:51 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C26_v1_240108.txt' del 2024-01-08 08:00:21  recien cargada [ToSQL]
+[2024-01-09 12:25:51 >> INFO    ] Tiempo total de ejecucion: 9.493353605270386 de 2024-01-08 08:00:21 - con_fs_Potencial_pyme_Bloqueo_C26_v1_240108.txt
+[2024-01-09 12:25:51 >> INFO    ]  archivo a cargar2024-01-08 07:58:43 - con_fs_Potencial_pyme_Bloqueo_C12_v1_240108.txt
+[2024-01-09 12:25:51 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C12_v1_240108.txt' del 2024-01-08 07:58:43  esta por cargarse
+[2024-01-09 12:25:51 >> INFO    ] el archivo es un txt
+[2024-01-09 12:25:51 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:25:57 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 12:26:00 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 12:26:01 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C12_v1_240108.txt' del 2024-01-08 07:58:43  recien cargada [ToSQL]
+[2024-01-09 12:26:01 >> INFO    ] Tiempo total de ejecucion: 9.915260076522827 de 2024-01-08 07:58:43 - con_fs_Potencial_pyme_Bloqueo_C12_v1_240108.txt
+[2024-01-09 12:26:46 >> INFO    ]  archivo a cargar2024-01-09 07:16:19 - PAGOS_VAC_20240109_.txt
+[2024-01-09 12:26:46 >> INFO    ] La base 'PAGOS_VAC_20240109_.txt' del 2024-01-09 07:16:19  esta por cargarse
+[2024-01-09 12:26:46 >> INFO    ] el archivo es un txt
+[2024-01-09 12:26:46 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:26:47 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 12:26:51 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 12:26:51 >> INFO    ] Base 'PAGOS_VAC_20240109_.txt' del 2024-01-09 07:16:19  recien cargada [ToSQL]
+[2024-01-09 12:26:51 >> INFO    ] Tiempo total de ejecucion: 5.131513357162476 de 2024-01-09 07:16:19 - PAGOS_VAC_20240109_.txt
+[2024-01-09 12:27:16 >> INFO    ]  archivo a cargar2024-01-09 07:16:19 - PAGOS_VAC_20240109_.txt
+[2024-01-09 12:27:16 >> INFO    ] La base 'PAGOS_VAC_20240109_.txt' del 2024-01-09 07:16:19  esta por cargarse
+[2024-01-09 12:27:16 >> INFO    ] el archivo es un txt
+[2024-01-09 12:27:16 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:27:17 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 12:27:21 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 12:27:21 >> INFO    ] Base 'PAGOS_VAC_20240109_.txt' del 2024-01-09 07:16:19  recien cargada [ToSQL]
+[2024-01-09 12:27:21 >> INFO    ] Tiempo total de ejecucion: 5.005316734313965 de 2024-01-09 07:16:19 - PAGOS_VAC_20240109_.txt
+[2024-01-09 12:29:22 >> INFO    ]  archivo a cargar2024-01-04 07:59:55 - con_fs_Potencial_pyme_Bloqueo_C26_v1_240104.txt
+[2024-01-09 12:29:22 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C26_v1_240104.txt' del 2024-01-04 07:59:55  esta por cargarse
+[2024-01-09 12:29:22 >> INFO    ] el archivo es un txt
+[2024-01-09 12:29:22 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:29:23 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 12:29:26 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 12:29:27 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C26_v1_240104.txt' del 2024-01-04 07:59:55  recien cargada [ToSQL]
+[2024-01-09 12:29:27 >> INFO    ] Tiempo total de ejecucion: 4.50425124168396 de 2024-01-04 07:59:55 - con_fs_Potencial_pyme_Bloqueo_C26_v1_240104.txt
+[2024-01-09 12:29:27 >> INFO    ]  archivo a cargar2024-01-04 07:56:18 - con_fs_Potencial_pyme_Bloqueo_C5_v1_240104.txt
+[2024-01-09 12:29:27 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C5_v1_240104.txt' del 2024-01-04 07:56:18  esta por cargarse
+[2024-01-09 12:29:27 >> INFO    ] el archivo es un txt
+[2024-01-09 12:29:27 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:29:33 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 12:29:36 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 12:29:36 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C5_v1_240104.txt' del 2024-01-04 07:56:18  recien cargada [ToSQL]
+[2024-01-09 12:29:36 >> INFO    ] Tiempo total de ejecucion: 9.529265403747559 de 2024-01-04 07:56:18 - con_fs_Potencial_pyme_Bloqueo_C5_v1_240104.txt
+[2024-01-09 12:29:36 >> INFO    ]  archivo a cargar2024-01-04 07:56:33 - con_fs_Potencial_pyme_Bloqueo_C20_v1_240104.txt
+[2024-01-09 12:29:36 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C20_v1_240104.txt' del 2024-01-04 07:56:33  esta por cargarse
+[2024-01-09 12:29:36 >> INFO    ] el archivo es un txt
+[2024-01-09 12:29:36 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:29:43 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 12:29:46 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 12:29:47 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C20_v1_240104.txt' del 2024-01-04 07:56:33  recien cargada [ToSQL]
+[2024-01-09 12:29:47 >> INFO    ] Tiempo total de ejecucion: 10.044279098510742 de 2024-01-04 07:56:33 - con_fs_Potencial_pyme_Bloqueo_C20_v1_240104.txt
+[2024-01-09 12:29:47 >> INFO    ]  archivo a cargar2024-01-04 07:57:40 - con_fs_Potencial_pyme_Bloqueo_C9_v1_240104.txt
+[2024-01-09 12:29:47 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C9_v1_240104.txt' del 2024-01-04 07:57:40  esta por cargarse
+[2024-01-09 12:29:47 >> INFO    ] el archivo es un txt
+[2024-01-09 12:29:47 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:29:53 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 12:29:56 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 12:29:57 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C9_v1_240104.txt' del 2024-01-04 07:57:40  recien cargada [ToSQL]
+[2024-01-09 12:29:57 >> INFO    ] Tiempo total de ejecucion: 10.123268127441406 de 2024-01-04 07:57:40 - con_fs_Potencial_pyme_Bloqueo_C9_v1_240104.txt
+[2024-01-09 12:29:57 >> INFO    ]  archivo a cargar2024-01-04 07:59:55 - con_fs_Potencial_pyme_Bloqueo_C16_v1_240104.txt
+[2024-01-09 12:29:57 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C16_v1_240104.txt' del 2024-01-04 07:59:55  esta por cargarse
+[2024-01-09 12:29:57 >> INFO    ] el archivo es un txt
+[2024-01-09 12:29:57 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:30:03 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 12:30:06 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 12:30:07 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C16_v1_240104.txt' del 2024-01-04 07:59:55  recien cargada [ToSQL]
+[2024-01-09 12:30:07 >> INFO    ] Tiempo total de ejecucion: 9.896573543548584 de 2024-01-04 07:59:55 - con_fs_Potencial_pyme_Bloqueo_C16_v1_240104.txt
+[2024-01-09 12:30:07 >> INFO    ]  archivo a cargar2024-01-04 07:58:07 - con_fs_Potencial_pyme_Bloqueo_C23_v1_240104.txt
+[2024-01-09 12:30:07 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C23_v1_240104.txt' del 2024-01-04 07:58:07  esta por cargarse
+[2024-01-09 12:30:07 >> INFO    ] el archivo es un txt
+[2024-01-09 12:30:07 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:30:13 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 12:30:16 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 12:30:16 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C23_v1_240104.txt' del 2024-01-04 07:58:07  recien cargada [ToSQL]
+[2024-01-09 12:30:16 >> INFO    ] Tiempo total de ejecucion: 9.944525480270386 de 2024-01-04 07:58:07 - con_fs_Potencial_pyme_Bloqueo_C23_v1_240104.txt
+[2024-01-09 12:30:16 >> INFO    ]  archivo a cargar2024-01-04 07:57:39 - con_fs_Potencial_pyme_Bloqueo_C12_v1_240104.txt
+[2024-01-09 12:30:16 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C12_v1_240104.txt' del 2024-01-04 07:57:39  esta por cargarse
+[2024-01-09 12:30:16 >> INFO    ] el archivo es un txt
+[2024-01-09 12:30:16 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:30:23 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 12:30:26 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 12:30:26 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C12_v1_240104.txt' del 2024-01-04 07:57:39  recien cargada [ToSQL]
+[2024-01-09 12:30:26 >> INFO    ] Tiempo total de ejecucion: 9.747235536575317 de 2024-01-04 07:57:39 - con_fs_Potencial_pyme_Bloqueo_C12_v1_240104.txt
+[2024-01-09 12:30:50 >> INFO    ]  archivo a cargar2024-01-05 07:57:30 - con_fs_Potencial_pyme_Bloqueo_C12_v1_240105.txt
+[2024-01-09 12:30:50 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C12_v1_240105.txt' del 2024-01-05 07:57:30  esta por cargarse
+[2024-01-09 12:30:50 >> INFO    ] el archivo es un txt
+[2024-01-09 12:30:50 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:30:51 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 12:30:54 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 12:30:55 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C12_v1_240105.txt' del 2024-01-05 07:57:30  recien cargada [ToSQL]
+[2024-01-09 12:30:55 >> INFO    ] Tiempo total de ejecucion: 4.487284898757935 de 2024-01-05 07:57:30 - con_fs_Potencial_pyme_Bloqueo_C12_v1_240105.txt
+[2024-01-09 12:30:55 >> INFO    ]  archivo a cargar2024-01-05 07:57:31 - con_fs_Potencial_pyme_Bloqueo_C26_v1_240105.txt
+[2024-01-09 12:30:55 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C26_v1_240105.txt' del 2024-01-05 07:57:31  esta por cargarse
+[2024-01-09 12:30:55 >> INFO    ] el archivo es un txt
+[2024-01-09 12:30:55 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:31:01 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 12:31:04 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 12:31:04 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C26_v1_240105.txt' del 2024-01-05 07:57:31  recien cargada [ToSQL]
+[2024-01-09 12:31:04 >> INFO    ] Tiempo total de ejecucion: 9.777371406555176 de 2024-01-05 07:57:31 - con_fs_Potencial_pyme_Bloqueo_C26_v1_240105.txt
+[2024-01-09 12:31:04 >> INFO    ]  archivo a cargar2024-01-05 07:59:09 - con_fs_Potencial_pyme_Bloqueo_C1_v1_240105.txt
+[2024-01-09 12:31:04 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C1_v1_240105.txt' del 2024-01-05 07:59:09  esta por cargarse
+[2024-01-09 12:31:04 >> INFO    ] el archivo es un txt
+[2024-01-09 12:31:04 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:31:11 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 12:31:17 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 12:31:18 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C1_v1_240105.txt' del 2024-01-05 07:59:09  recien cargada [ToSQL]
+[2024-01-09 12:31:18 >> INFO    ] Tiempo total de ejecucion: 13.043667793273926 de 2024-01-05 07:59:09 - con_fs_Potencial_pyme_Bloqueo_C1_v1_240105.txt
+[2024-01-09 12:31:18 >> INFO    ]  archivo a cargar2024-01-05 07:57:30 - con_fs_Potencial_pyme_Bloqueo_C9_v1_240105.txt
+[2024-01-09 12:31:18 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C9_v1_240105.txt' del 2024-01-05 07:57:30  esta por cargarse
+[2024-01-09 12:31:18 >> INFO    ] el archivo es un txt
+[2024-01-09 12:31:18 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:31:23 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 12:31:26 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 12:31:27 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C9_v1_240105.txt' del 2024-01-05 07:57:30  recien cargada [ToSQL]
+[2024-01-09 12:31:27 >> INFO    ] Tiempo total de ejecucion: 9.463197469711304 de 2024-01-05 07:57:30 - con_fs_Potencial_pyme_Bloqueo_C9_v1_240105.txt
+[2024-01-09 12:31:27 >> INFO    ]  archivo a cargar2024-01-05 07:58:06 - con_fs_Potencial_pyme_Bloqueo_C5_v1_240105.txt
+[2024-01-09 12:31:27 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C5_v1_240105.txt' del 2024-01-05 07:58:06  esta por cargarse
+[2024-01-09 12:31:27 >> INFO    ] el archivo es un txt
+[2024-01-09 12:31:27 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:31:33 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 12:31:36 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 12:31:37 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C5_v1_240105.txt' del 2024-01-05 07:58:06  recien cargada [ToSQL]
+[2024-01-09 12:31:37 >> INFO    ] Tiempo total de ejecucion: 9.528270483016968 de 2024-01-05 07:58:06 - con_fs_Potencial_pyme_Bloqueo_C5_v1_240105.txt
+[2024-01-09 12:31:37 >> INFO    ]  archivo a cargar2024-01-05 07:57:31 - con_fs_Potencial_pyme_Bloqueo_C20_v1_240105.txt
+[2024-01-09 12:31:37 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C20_v1_240105.txt' del 2024-01-05 07:57:31  esta por cargarse
+[2024-01-09 12:31:37 >> INFO    ] el archivo es un txt
+[2024-01-09 12:31:37 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:31:42 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 12:31:46 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 12:31:46 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C20_v1_240105.txt' del 2024-01-05 07:57:31  recien cargada [ToSQL]
+[2024-01-09 12:31:46 >> INFO    ] Tiempo total de ejecucion: 9.695927381515503 de 2024-01-05 07:57:31 - con_fs_Potencial_pyme_Bloqueo_C20_v1_240105.txt
+[2024-01-09 12:31:46 >> INFO    ]  archivo a cargar2024-01-05 07:58:06 - con_fs_Potencial_pyme_Bloqueo_C23_v1_240105.txt
+[2024-01-09 12:31:46 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C23_v1_240105.txt' del 2024-01-05 07:58:06  esta por cargarse
+[2024-01-09 12:31:46 >> INFO    ] el archivo es un txt
+[2024-01-09 12:31:46 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:31:52 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 12:31:55 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 12:31:56 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C23_v1_240105.txt' del 2024-01-05 07:58:06  recien cargada [ToSQL]
+[2024-01-09 12:31:56 >> INFO    ] Tiempo total de ejecucion: 9.704784631729126 de 2024-01-05 07:58:06 - con_fs_Potencial_pyme_Bloqueo_C23_v1_240105.txt
+[2024-01-09 12:31:56 >> INFO    ]  archivo a cargar2024-01-05 07:59:04 - con_fs_Potencial_pyme_Bloqueo_C16_v1_240105.txt
+[2024-01-09 12:31:56 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C16_v1_240105.txt' del 2024-01-05 07:59:04  esta por cargarse
+[2024-01-09 12:31:56 >> INFO    ] el archivo es un txt
+[2024-01-09 12:31:56 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:32:02 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 12:32:05 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 12:32:06 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C16_v1_240105.txt' del 2024-01-05 07:59:04  recien cargada [ToSQL]
+[2024-01-09 12:32:06 >> INFO    ] Tiempo total de ejecucion: 10.024925947189331 de 2024-01-05 07:59:04 - con_fs_Potencial_pyme_Bloqueo_C16_v1_240105.txt
+[2024-01-09 12:32:23 >> INFO    ]  archivo a cargar2024-01-06 07:55:02 - con_fs_Potencial_pyme_Bloqueo_C26_v1_240106.txt
+[2024-01-09 12:32:23 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C26_v1_240106.txt' del 2024-01-06 07:55:02  esta por cargarse
+[2024-01-09 12:32:23 >> INFO    ] el archivo es un txt
+[2024-01-09 12:32:23 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:32:23 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 12:32:27 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 12:32:27 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C26_v1_240106.txt' del 2024-01-06 07:55:02  recien cargada [ToSQL]
+[2024-01-09 12:32:27 >> INFO    ] Tiempo total de ejecucion: 4.447347164154053 de 2024-01-06 07:55:02 - con_fs_Potencial_pyme_Bloqueo_C26_v1_240106.txt
+[2024-01-09 12:32:27 >> INFO    ]  archivo a cargar2024-01-06 07:54:12 - con_fs_Potencial_pyme_Bloqueo_C16_v1_240106.txt
+[2024-01-09 12:32:27 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C16_v1_240106.txt' del 2024-01-06 07:54:12  esta por cargarse
+[2024-01-09 12:32:27 >> INFO    ] el archivo es un txt
+[2024-01-09 12:32:27 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:32:33 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 12:32:37 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 12:32:37 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C16_v1_240106.txt' del 2024-01-06 07:54:12  recien cargada [ToSQL]
+[2024-01-09 12:32:37 >> INFO    ] Tiempo total de ejecucion: 9.999768018722534 de 2024-01-06 07:54:12 - con_fs_Potencial_pyme_Bloqueo_C16_v1_240106.txt
+[2024-01-09 12:32:37 >> INFO    ]  archivo a cargar2024-01-06 07:53:40 - con_fs_Potencial_pyme_Bloqueo_C5_v1_240106.txt
+[2024-01-09 12:32:37 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C5_v1_240106.txt' del 2024-01-06 07:53:40  esta por cargarse
+[2024-01-09 12:32:37 >> INFO    ] el archivo es un txt
+[2024-01-09 12:32:37 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:32:44 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 12:32:47 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 12:32:47 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C5_v1_240106.txt' del 2024-01-06 07:53:40  recien cargada [ToSQL]
+[2024-01-09 12:32:47 >> INFO    ] Tiempo total de ejecucion: 10.176088094711304 de 2024-01-06 07:53:40 - con_fs_Potencial_pyme_Bloqueo_C5_v1_240106.txt
+[2024-01-09 12:32:47 >> INFO    ]  archivo a cargar2024-01-06 07:54:01 - con_fs_Potencial_pyme_Bloqueo_C20_v1_240106.txt
+[2024-01-09 12:32:47 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C20_v1_240106.txt' del 2024-01-06 07:54:01  esta por cargarse
+[2024-01-09 12:32:47 >> INFO    ] el archivo es un txt
+[2024-01-09 12:32:47 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:32:53 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 12:32:56 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 12:32:57 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C20_v1_240106.txt' del 2024-01-06 07:54:01  recien cargada [ToSQL]
+[2024-01-09 12:32:57 >> INFO    ] Tiempo total de ejecucion: 9.666316270828247 de 2024-01-06 07:54:01 - con_fs_Potencial_pyme_Bloqueo_C20_v1_240106.txt
+[2024-01-09 12:32:57 >> INFO    ]  archivo a cargar2024-01-06 07:54:03 - con_fs_Potencial_pyme_Bloqueo_C1_v1_240106.txt
+[2024-01-09 12:32:57 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C1_v1_240106.txt' del 2024-01-06 07:54:03  esta por cargarse
+[2024-01-09 12:32:57 >> INFO    ] el archivo es un txt
+[2024-01-09 12:32:57 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:33:03 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 12:33:06 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 12:33:07 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C1_v1_240106.txt' del 2024-01-06 07:54:03  recien cargada [ToSQL]
+[2024-01-09 12:33:07 >> INFO    ] Tiempo total de ejecucion: 9.889833688735962 de 2024-01-06 07:54:03 - con_fs_Potencial_pyme_Bloqueo_C1_v1_240106.txt
+[2024-01-09 12:33:07 >> INFO    ]  archivo a cargar2024-01-06 07:53:40 - con_fs_Potencial_pyme_Bloqueo_C12_v1_240106.txt
+[2024-01-09 12:33:07 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C12_v1_240106.txt' del 2024-01-06 07:53:40  esta por cargarse
+[2024-01-09 12:33:07 >> INFO    ] el archivo es un txt
+[2024-01-09 12:33:07 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:33:13 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 12:33:16 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 12:33:17 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C12_v1_240106.txt' del 2024-01-06 07:53:40  recien cargada [ToSQL]
+[2024-01-09 12:33:17 >> INFO    ] Tiempo total de ejecucion: 9.738202571868896 de 2024-01-06 07:53:40 - con_fs_Potencial_pyme_Bloqueo_C12_v1_240106.txt
+[2024-01-09 12:33:17 >> INFO    ]  archivo a cargar2024-01-06 07:54:00 - con_fs_Potencial_pyme_Bloqueo_C9_v1_240106.txt
+[2024-01-09 12:33:17 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C9_v1_240106.txt' del 2024-01-06 07:54:00  esta por cargarse
+[2024-01-09 12:33:17 >> INFO    ] el archivo es un txt
+[2024-01-09 12:33:17 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:33:23 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 12:33:26 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 12:33:26 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C9_v1_240106.txt' del 2024-01-06 07:54:00  recien cargada [ToSQL]
+[2024-01-09 12:33:27 >> INFO    ] Tiempo total de ejecucion: 9.735711097717285 de 2024-01-06 07:54:00 - con_fs_Potencial_pyme_Bloqueo_C9_v1_240106.txt
+[2024-01-09 12:33:27 >> INFO    ]  archivo a cargar2024-01-06 07:54:00 - con_fs_Potencial_pyme_Bloqueo_C23_v1_240106.txt
+[2024-01-09 12:33:27 >> INFO    ] La base 'con_fs_Potencial_pyme_Bloqueo_C23_v1_240106.txt' del 2024-01-06 07:54:00  esta por cargarse
+[2024-01-09 12:33:27 >> INFO    ] el archivo es un txt
+[2024-01-09 12:33:27 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:33:33 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 12:33:37 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 12:33:37 >> INFO    ] Base 'con_fs_Potencial_pyme_Bloqueo_C23_v1_240106.txt' del 2024-01-06 07:54:00  recien cargada [ToSQL]
+[2024-01-09 12:33:37 >> INFO    ] Tiempo total de ejecucion: 10.658596277236938 de 2024-01-06 07:54:00 - con_fs_Potencial_pyme_Bloqueo_C23_v1_240106.txt
+[2024-01-09 12:36:17 >> INFO    ]  archivo a cargar2024-01-09 07:16:19 - PAGOS_VAC_20240109_.txt
+[2024-01-09 12:36:17 >> INFO    ] La base 'PAGOS_VAC_20240109_.txt' del 2024-01-09 07:16:19  esta por cargarse
+[2024-01-09 12:36:17 >> INFO    ] el archivo es un txt
+[2024-01-09 12:36:17 >> INFO    ] cargando archivo de texto
+[2024-01-09 12:36:18 >> INFO    ] Creacion Tabla temporal
+[2024-01-09 12:36:22 >> INFO    ] Insercion Tabla destino DW
+[2024-01-09 12:36:23 >> INFO    ] Base 'PAGOS_VAC_20240109_.txt' del 2024-01-09 07:16:19  recien cargada [ToSQL]
+[2024-01-09 12:36:23 >> INFO    ] Tiempo total de ejecucion: 6.121144771575928 de 2024-01-09 07:16:19 - PAGOS_VAC_20240109_.txt

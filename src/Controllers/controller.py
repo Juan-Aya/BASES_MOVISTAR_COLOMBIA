@@ -76,8 +76,8 @@ def insertar_raya_al_piso(cadena): #Funcion que inserta raya al piso cuando el e
             return cadena
 
 def convertir_fecha(fecha):
+    #print("Hola, ingresé: ",fecha)
     formatos = ["%Y-%m-%d %I:%M:%S", "%d/%m/%Y %I:%M:%S", "%Y-%m-%d", "%Y/%m/%d", "%d/%m/%Y", "%m-%d-%y", "%d/%m/%Y:%H:%M:%S", "%d-%m-%Y %H:%M:%S", "%d/%m/%Y 0:00:00", "%d/%m/%Y 00:00:00", "%d/%m/%Y %H:%M:%S","%Y-%m-%d %H:%M:%S","%d/%m/%Y %I:%M:%S %p"]
-
     for formato in formatos:
         try:
             fecha = pd.to_datetime(fecha, format=formato)
@@ -98,7 +98,7 @@ def convertir_fecha(fecha):
                 # Si no puede convertir la fecha, devuelve un mensaje indicando el problema
                 return "No se pudo convertir la fecha"
             
-def toSqlTxt(path,nombre_tabla,file_, dic_fechas, dic_formatos, separador, columnas_tabla):
+def toSqlTxt(path,nombre_tabla,file_, dic_fechas, dic_formatos, separador, columnas_tabla,cruze):
     logging.getLogger("user").info(f"cargando archivo de texto")
     logging.info('Lectura archivo')
     print(path)
@@ -116,11 +116,26 @@ def toSqlTxt(path,nombre_tabla,file_, dic_fechas, dic_formatos, separador, colum
     df.columns = df.columns.str.replace("[^0-9a-zA-Z_]", "", regex=True)
     df.columns = [insertar_raya_al_piso(nombre_columna) for nombre_columna in df.columns]
     df.columns = df.columns.str.upper()
+    connection, cdn_connection, engine, bbdd_or = mysql_connection()
+    print("Cantidad antes de filtrar: ", len(df))
+    try:
+        Cruze = cruze[0]
+        if Cruze == "1":
+            consulta = text("SELECT DISTINCT CUENTA_FS FROM tb_asignacion_con_fs_potencial_pyme_bloqueo WHERE MONTH(FEC_ASIGNA) = MONTH(CURDATE());")
+            resultado = connection.execute(consulta)  # Utiliza 'connection' en lugar de 'engine'
+            dfasg = pd.DataFrame(resultado)
+            # dfasg = dd.from_pandas(resultado, npartitions=1)
+            # print(cruze[1])
+            df = df[df[cruze[1]].isin(dfasg["CUENTA_FS"])]
+    except:
+        print("No tirne cruce.")
+    print("Cantidad despues: ",len(df))  
     print(dic_fechas)
+    print(df.columns)
     for fecha_mod in dic_fechas:
-        if fecha_mod in df.columns:
-            df[fecha_mod] = df[fecha_mod].apply(convertir_fecha, meta=(f"{fecha_mod}", "str"))
-           
+                    if fecha_mod in df.columns:
+                        df[fecha_mod]=df[fecha_mod].apply(convertir_fecha, meta=(f"{fecha_mod}", "str")) # 
+
     df['FILE_DATE'] = fecha                                     
     df['FILE_NAME'] = file_[22:]
     df['FILE_YEAR'] = df['FILE_DATE'].dt.year
@@ -130,7 +145,7 @@ def toSqlTxt(path,nombre_tabla,file_, dic_fechas, dic_formatos, separador, colum
         if formato in df.columns:
             df[formato] = df[formato].str.replace(",", ".", regex=True)
             df[formato] = df[formato].str.replace("[^0-9-.]", "", regex=True)
-    connection,cdn_connection,engine,bbdd_or = mysql_connection()
+    
     try:
         tabla = Table(f"tb_{nombre_tabla}", MetaData(), autoload_with = engine)
         nombre_columnas_nuevas = [c.name for c in tabla.c]
@@ -142,14 +157,15 @@ def toSqlTxt(path,nombre_tabla,file_, dic_fechas, dic_formatos, separador, colum
                 connection.execute(text(f"ALTER TABLE `{bbdd_or}`.`{tabla.name}` ADD COLUMN `" + listCols[i] + "` VARCHAR(128)"))
         tabla = Table(f"tb_{nombre_tabla}", MetaData(), autoload_with = engine)
         dask.config.set(scheduler="processes")
-        df.repartition(npartitions=10)
+        print("Llegueee...")
+        #df.repartition(npartitions=10)
         columnas_nuevas = [Column(c.name, c.type) for c in tabla.c]
         tmp = Table(f"{tabla.name}_tmp", MetaData(), *columnas_nuevas)
         tmp.drop(bind = engine,checkfirst=True)
         tmp.create(bind = engine)
         logging.getLogger("user").info('Creacion Tabla temporal')
         # Cargue del DataFrame de Dask en la base de datos MySQL.
-        df.to_sql(tmp.name, cdn_connection, if_exists='append',index=False,parallel=True)
+        df.to_sql(tmp.name, cdn_connection, if_exists='append',index=False) #,parallel=True
         connection.execute(text(f"INSERT IGNORE INTO {tabla.name} SELECT * FROM {tmp.name};"))
         tmp.drop(bind = engine,checkfirst=True)
         logging.getLogger("user").info('Insercion Tabla destino DW')
@@ -266,7 +282,7 @@ def toSqlZip(path,nombre_tabla,file, dic_fechas,dic_formatos,dic_hojas,separador
         for file in os.listdir(os.path.join("ZIP")):
             os.remove(os.path.join("ZIP", file))         
 # Función terciaria del archivo
-def check_and_add(path,nombre_tabla,file, dic_fechas,dic_formatos,dic_hojas,separador, cargue_tabla, asignacion, nombre_archivo, columnas_tabla, columnas_sin_espacio):
+def check_and_add(path,nombre_tabla,file, dic_fechas,dic_formatos,dic_hojas,separador, cargue_tabla, asignacion, nombre_archivo, columnas_tabla, columnas_sin_espacio,cruze):
     logging.getLogger("user").info(f" archivo a cargar{file}")
     ini = time.time() # timepo de inicio del cargue 
     LOADED_FILES = f"{log_file_path1}//{nombre_tabla}.log" # ruta del log #//root//PROCESOS//BASESCLAROCOBRANZAPRUEBAS//src//LoadedFiles//
@@ -285,7 +301,7 @@ def check_and_add(path,nombre_tabla,file, dic_fechas,dic_formatos,dic_hojas,sepa
         # validacion de extenciones para saber que función usar 
         if extension in [".txt", ".csv"]:
             logging.getLogger("user").info(f"el archivo es un txt")
-            toSqlTxt(path,nombre_tabla,file, dic_fechas,dic_formatos,separador, columnas_tabla)
+            toSqlTxt(path,nombre_tabla,file, dic_fechas,dic_formatos,separador, columnas_tabla,cruze)
         elif extension in [".xlsx", ".XLSX" ]:
             logging.getLogger("user").info(f"el archivo es un excel")
             toSqlExcel(path,nombre_tabla,file, dic_fechas,dic_formatos,dic_hojas,separador, cargue_tabla, asignacion, columnas_tabla, columnas_sin_espacio)
@@ -305,7 +321,7 @@ def check_and_add(path,nombre_tabla,file, dic_fechas,dic_formatos,dic_hojas,sepa
         print(f"TOTAL TIEMPO EJECUCION {fin-inicio}")
         logging.getLogger("user").info(f"Tiempo total de ejecucion: {fin-ini} de {file}")
 # Función primaria del archivo 
-def scan_folder(path,nombre_tabla,nombre_archivo,dic_fechas,dic_formatos,dic_hojas,separador, cargue_tabla, asignacion,columnas_tabla, columnas_sin_espacio):
+def scan_folder(path,nombre_tabla,nombre_archivo,dic_fechas,dic_formatos,dic_hojas,separador, cargue_tabla, asignacion,columnas_tabla, columnas_sin_espacio,cruze):
     print(f"en Scan {nombre_tabla} -- {nombre_archivo}-- {path}")
     try:
         if os.path.exists(path): # validar si la ruta existe
@@ -314,7 +330,7 @@ def scan_folder(path,nombre_tabla,nombre_archivo,dic_fechas,dic_formatos,dic_hoj
             for file in file_to_load: # interar los archivos para el cargue
                 print("cargando",file)
                 # validacion y extandarización para el cargue de los archivos 
-                check_and_add(path,nombre_tabla,file, dic_fechas,dic_formatos,dic_hojas,separador, cargue_tabla, asignacion, nombre_archivo, columnas_tabla, columnas_sin_espacio )   
+                check_and_add(path,nombre_tabla,file, dic_fechas,dic_formatos,dic_hojas,separador, cargue_tabla, asignacion, nombre_archivo, columnas_tabla, columnas_sin_espacio,cruze)   
         else:
             if hora == '08:00':
                 # mesaje en caso de que no se encuentra la ruta deseada

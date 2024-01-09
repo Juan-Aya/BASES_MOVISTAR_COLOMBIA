@@ -24,9 +24,9 @@ for i in range(len(list(archivos))):
     asignacion = coleccion[key1]["asignacion"]
     # Selección de tipo de ruta a leer 
     if  coleccion[key1]["opcion_path"][0].strip("'") == "1":
-        path = f"{path_0}\\{anio}\\{mes}\\03" # cambiar los separadores
+        path = f"{path_0}\\{anio}\\{mes}\\{dia}" # cambiar los separadores
     elif coleccion[key1]["opcion_path"][0].strip("'") == "2":
-        path = f"{path_0}//{anio}//{mes}"
+        path = f"{path_0}\\{anio}\\{mes}"
     elif coleccion[key1]["opcion_path"][0].strip("'") == "3":
         path = f"{path_0}//{anio}"
     elif coleccion[key1]["opcion_path"][0].strip("'") == "4":
@@ -41,7 +41,8 @@ for i in range(len(list(archivos))):
     dic_hojas = coleccion[key1]["sheets"]
     columnas_tabla = coleccion[key1]["columnas"]
     columnas_sin_espacio =coleccion[key1]["columnas_sin_espacio"]
+    cruze=coleccion[key1]["cruze"]
     if __name__ == '__main__':
         # Ejecucion de función primaria 
-        scan_folder(path,nombre_tabla,nombre_archivo,dic_fechas,dic_formatos,dic_hojas,separador, cargue_tabla, asignacion, columnas_tabla, columnas_sin_espacio)
+        scan_folder(path,nombre_tabla,nombre_archivo,dic_fechas,dic_formatos,dic_hojas,separador, cargue_tabla, asignacion, columnas_tabla, columnas_sin_espacio,cruze)
 
