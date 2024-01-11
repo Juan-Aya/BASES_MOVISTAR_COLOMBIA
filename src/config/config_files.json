@@ -1,13 +1,13 @@
 {
 "ejecuciones":{
   "archivo1":{
-   "varibles":[["con_fs_Potencial_pyme_Bloqueo"],"asignacion_con_fs_potencial_pyme_bloqueo","Z:\\WORKFORCE\\02. Workforce\\WFM_BASES_OUTBOUND\\CAMPANAS\\MOVISTAR_CARTERA_COLOMBIA\\MOVISTAR_CARTERA_COLOMBIA_B2C\\CICLOS\\ASIGNACION"],
+   "varibles":[["UNICUENTA_TCON"],"asignacion_movistar_colombia_ciclos","Z:\\WORKFORCE\\02. Workforce\\WFM_BASES_OUTBOUND\\CAMPANAS\\MOVISTAR_CARTERA_COLOMBIA\\MOVISTAR_CARTERA_COLOMBIA_B2C\\CICLOS\\ASIGNACION"],
    "sheets":["None"],
-   "opcion_path":["1","|"],
+   "opcion_path":["5","~"],
    "opcion_cargue_tabla":1,
    "asignacion":0,
    "columnas":[],
-   "fechas":["FEC_ESTADO","FEC_ESTADO_CRM","FEC_ASIGNA","FEC_CIERRE","FEC_VENCIMIENTO","FEC_ALTA"],
+   "fechas":["FEC_ASIGNACION","FEC_CIERRE_ASIGNACION","FEC_ESTADO_CRM","FEC_INICIO","FEC_FIN","FEC_ALTA","FECHA_DE_VENTA","FEC_ESTADO","FEC_VENCIMIENTO","FECHA_CICLO_FACTURACION","FECHA_DE_AUTORIZACION"],
    "formatos":[],
    "columnas_sin_espacio" : [],
    "cruze":["","",""]

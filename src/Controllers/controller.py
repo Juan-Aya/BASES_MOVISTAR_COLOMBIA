@@ -118,17 +118,14 @@ def toSqlTxt(path,nombre_tabla,file_, dic_fechas, dic_formatos, separador, colum
     df.columns = df.columns.str.upper()
     connection, cdn_connection, engine, bbdd_or = mysql_connection()
     print("Cantidad antes de filtrar: ", len(df))
-    try:
-        Cruze = cruze[0]
-        if Cruze == "1":
-            consulta = text("SELECT DISTINCT CUENTA_FS FROM tb_asignacion_con_fs_potencial_pyme_bloqueo WHERE MONTH(FEC_ASIGNA) = MONTH(CURDATE());")
-            resultado = connection.execute(consulta)  # Utiliza 'connection' en lugar de 'engine'
-            dfasg = pd.DataFrame(resultado)
-            # dfasg = dd.from_pandas(resultado, npartitions=1)
-            # print(cruze[1])
-            df = df[df[cruze[1]].isin(dfasg["CUENTA_FS"])]
-    except:
-        print("No tirne cruce.")
+    Cruze = cruze[0]
+    if Cruze == "1":
+        consulta = text("SELECT DISTINCT CUENTA FROM tb_asignacion_movistar_colombia_ciclos WHERE MONTH(FEC_ASIGNACION) = MONTH(CURDATE());")
+        resultado = connection.execute(consulta)  # Utiliza 'connection' en lugar de 'engine'
+        dfasg = pd.DataFrame(resultado)
+        # dfasg = dd.from_pandas(resultado, npartitions=1)
+        # print(cruze[1])
+        df = df[df[cruze[1]].isin(dfasg["CUENTA"])]
     print("Cantidad despues: ",len(df))  
     print(dic_fechas)
     print(df.columns)
