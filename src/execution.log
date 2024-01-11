@@ -1941,3 +1941,99 @@ UnboundLocalError: cannot access local variable 'Cruze' where it is not associat
 [2024-01-11 10:18:03 >> INFO    ] Insercion Tabla destino DW
 [2024-01-11 10:18:04 >> INFO    ] Base 'CARTERA_FULL_STACK_20240111.txt' del 2024-01-11 07:06:02  recien cargada [ToSQL]
 [2024-01-11 10:18:04 >> INFO    ] Tiempo total de ejecucion: 87.98167753219604 de 2024-01-11 07:06:02 - CARTERA_FULL_STACK_20240111.txt
+[2024-01-11 12:44:05 >> INFO    ]  archivo a cargar2024-01-10 10:59:49 - 3_CL20_BLOQANT_FJ_Enero_24_UNICUENTA_TCON_20240110.csv
+[2024-01-11 12:44:05 >> INFO    ] La base '3_CL20_BLOQANT_FJ_Enero_24_UNICUENTA_TCON_20240110.csv' del 2024-01-10 10:59:49  esta por cargarse
+[2024-01-11 12:44:05 >> INFO    ] el archivo es un txt
+[2024-01-11 12:44:05 >> INFO    ] cargando archivo de texto
+[2024-01-11 12:44:06 >> INFO    ] Creacion Tabla temporal
+[2024-01-11 12:44:10 >> INFO    ] Insercion Tabla destino DW
+[2024-01-11 12:44:11 >> INFO    ] Base '3_CL20_BLOQANT_FJ_Enero_24_UNICUENTA_TCON_20240110.csv' del 2024-01-10 10:59:49  recien cargada [ToSQL]
+[2024-01-11 12:44:11 >> INFO    ] Tiempo total de ejecucion: 5.990765333175659 de 2024-01-10 10:59:49 - 3_CL20_BLOQANT_FJ_Enero_24_UNICUENTA_TCON_20240110.csv
+[2024-01-11 12:44:11 >> INFO    ]  archivo a cargar2024-01-10 10:59:49 - 3_CL20_1FACT_FJ_Enero_24_UNICUENTA_TCON_20240110.csv
+[2024-01-11 12:44:11 >> INFO    ] La base '3_CL20_1FACT_FJ_Enero_24_UNICUENTA_TCON_20240110.csv' del 2024-01-10 10:59:49  esta por cargarse
+[2024-01-11 12:44:11 >> INFO    ] el archivo es un txt
+[2024-01-11 12:44:11 >> INFO    ] cargando archivo de texto
+[2024-01-11 12:44:19 >> INFO    ] Creacion Tabla temporal
+[2024-01-11 12:44:22 >> INFO    ] Insercion Tabla destino DW
+[2024-01-11 12:44:23 >> INFO    ] Base '3_CL20_1FACT_FJ_Enero_24_UNICUENTA_TCON_20240110.csv' del 2024-01-10 10:59:49  recien cargada [ToSQL]
+[2024-01-11 12:44:23 >> INFO    ] Tiempo total de ejecucion: 11.706370830535889 de 2024-01-10 10:59:49 - 3_CL20_1FACT_FJ_Enero_24_UNICUENTA_TCON_20240110.csv
+[2024-01-11 12:44:23 >> INFO    ]  archivo a cargar2024-01-10 10:59:47 - 4_CL1_1FACT_MV_Febrero_24_UNICUENTA_TCON_20240110.csv
+[2024-01-11 12:44:23 >> INFO    ] La base '4_CL1_1FACT_MV_Febrero_24_UNICUENTA_TCON_20240110.csv' del 2024-01-10 10:59:47  esta por cargarse
+[2024-01-11 12:44:23 >> INFO    ] el archivo es un txt
+[2024-01-11 12:44:23 >> INFO    ] cargando archivo de texto
+[2024-01-11 12:44:30 >> INFO    ] Creacion Tabla temporal
+[2024-01-11 12:44:33 >> INFO    ] Insercion Tabla destino DW
+[2024-01-11 12:44:34 >> INFO    ] Base '4_CL1_1FACT_MV_Febrero_24_UNICUENTA_TCON_20240110.csv' del 2024-01-10 10:59:47  recien cargada [ToSQL]
+[2024-01-11 12:44:34 >> INFO    ] Tiempo total de ejecucion: 11.258512496948242 de 2024-01-10 10:59:47 - 4_CL1_1FACT_MV_Febrero_24_UNICUENTA_TCON_20240110.csv
+[2024-01-11 12:44:34 >> INFO    ]  archivo a cargar2024-01-10 10:59:48 - 3_CL26_1FACT_FJ_Enero_24_UNICUENTA_TCON_20240110.csv
+[2024-01-11 12:44:34 >> INFO    ] La base '3_CL26_1FACT_FJ_Enero_24_UNICUENTA_TCON_20240110.csv' del 2024-01-10 10:59:48  esta por cargarse
+[2024-01-11 12:44:34 >> INFO    ] el archivo es un txt
+[2024-01-11 12:44:34 >> INFO    ] cargando archivo de texto
+[2024-01-11 12:44:41 >> INFO    ] Creacion Tabla temporal
+[2024-01-11 12:44:54 >> INFO    ] Insercion Tabla destino DW
+[2024-01-11 12:44:55 >> INFO    ] Base '3_CL26_1FACT_FJ_Enero_24_UNICUENTA_TCON_20240110.csv' del 2024-01-10 10:59:48  recien cargada [ToSQL]
+[2024-01-11 12:44:55 >> INFO    ] Tiempo total de ejecucion: 20.846659898757935 de 2024-01-10 10:59:48 - 3_CL26_1FACT_FJ_Enero_24_UNICUENTA_TCON_20240110.csv
+[2024-01-11 12:44:55 >> INFO    ]  archivo a cargar2024-01-10 10:59:47 - 4_CL5_1FACT_MV_Febrero_24_UNICUENTA_TCON_20240110.csv
+[2024-01-11 12:44:55 >> INFO    ] La base '4_CL5_1FACT_MV_Febrero_24_UNICUENTA_TCON_20240110.csv' del 2024-01-10 10:59:47  esta por cargarse
+[2024-01-11 12:44:55 >> INFO    ] el archivo es un txt
+[2024-01-11 12:44:55 >> INFO    ] cargando archivo de texto
+[2024-01-11 12:45:02 >> INFO    ] Creacion Tabla temporal
+[2024-01-11 12:45:06 >> INFO    ] Insercion Tabla destino DW
+[2024-01-11 12:45:06 >> INFO    ] Base '4_CL5_1FACT_MV_Febrero_24_UNICUENTA_TCON_20240110.csv' del 2024-01-10 10:59:47  recien cargada [ToSQL]
+[2024-01-11 12:45:06 >> INFO    ] Tiempo total de ejecucion: 11.556791543960571 de 2024-01-10 10:59:47 - 4_CL5_1FACT_MV_Febrero_24_UNICUENTA_TCON_20240110.csv
+[2024-01-11 12:45:06 >> INFO    ]  archivo a cargar2024-01-10 10:59:49 - 4_CL20_1FACT_MV_Enero_24_UNICUENTA_TCON_20240110.csv
+[2024-01-11 12:45:06 >> INFO    ] La base '4_CL20_1FACT_MV_Enero_24_UNICUENTA_TCON_20240110.csv' del 2024-01-10 10:59:49  esta por cargarse
+[2024-01-11 12:45:06 >> INFO    ] el archivo es un txt
+[2024-01-11 12:45:06 >> INFO    ] cargando archivo de texto
+[2024-01-11 12:45:14 >> INFO    ] Creacion Tabla temporal
+[2024-01-11 12:45:20 >> INFO    ] Insercion Tabla destino DW
+[2024-01-11 12:45:20 >> INFO    ] Base '4_CL20_1FACT_MV_Enero_24_UNICUENTA_TCON_20240110.csv' del 2024-01-10 10:59:49  recien cargada [ToSQL]
+[2024-01-11 12:45:20 >> INFO    ] Tiempo total de ejecucion: 13.933716535568237 de 2024-01-10 10:59:49 - 4_CL20_1FACT_MV_Enero_24_UNICUENTA_TCON_20240110.csv
+[2024-01-11 12:45:20 >> INFO    ]  archivo a cargar2024-01-10 10:59:48 - 4_CL26_BLOQANT_MV_Enero_24_UNICUENTA_TCON_20240110.csv
+[2024-01-11 12:45:20 >> INFO    ] La base '4_CL26_BLOQANT_MV_Enero_24_UNICUENTA_TCON_20240110.csv' del 2024-01-10 10:59:48  esta por cargarse
+[2024-01-11 12:45:20 >> INFO    ] el archivo es un txt
+[2024-01-11 12:45:20 >> INFO    ] cargando archivo de texto
+[2024-01-11 12:45:28 >> INFO    ] Creacion Tabla temporal
+[2024-01-11 12:45:37 >> INFO    ] Insercion Tabla destino DW
+[2024-01-11 12:45:38 >> INFO    ] Base '4_CL26_BLOQANT_MV_Enero_24_UNICUENTA_TCON_20240110.csv' del 2024-01-10 10:59:48  recien cargada [ToSQL]
+[2024-01-11 12:45:38 >> INFO    ] Tiempo total de ejecucion: 17.29858684539795 de 2024-01-10 10:59:48 - 4_CL26_BLOQANT_MV_Enero_24_UNICUENTA_TCON_20240110.csv
+[2024-01-11 12:45:38 >> INFO    ]  archivo a cargar2024-01-10 10:59:48 - 4_CL20_BLOQANT_MV_Enero_24_UNICUENTA_TCON_20240110.csv
+[2024-01-11 12:45:38 >> INFO    ] La base '4_CL20_BLOQANT_MV_Enero_24_UNICUENTA_TCON_20240110.csv' del 2024-01-10 10:59:48  esta por cargarse
+[2024-01-11 12:45:38 >> INFO    ] el archivo es un txt
+[2024-01-11 12:45:38 >> INFO    ] cargando archivo de texto
+[2024-01-11 12:45:45 >> INFO    ] Creacion Tabla temporal
+[2024-01-11 12:45:48 >> INFO    ] Insercion Tabla destino DW
+[2024-01-11 12:45:48 >> INFO    ] Base '4_CL20_BLOQANT_MV_Enero_24_UNICUENTA_TCON_20240110.csv' del 2024-01-10 10:59:48  recien cargada [ToSQL]
+[2024-01-11 12:45:48 >> INFO    ] Tiempo total de ejecucion: 10.977101564407349 de 2024-01-10 10:59:48 - 4_CL20_BLOQANT_MV_Enero_24_UNICUENTA_TCON_20240110.csv
+[2024-01-11 12:45:48 >> INFO    ]  archivo a cargar2024-01-10 10:59:49 - 4_CL26_1FACT_MV_Enero_24_UNICUENTA_TCON_20240110.csv
+[2024-01-11 12:45:48 >> INFO    ] La base '4_CL26_1FACT_MV_Enero_24_UNICUENTA_TCON_20240110.csv' del 2024-01-10 10:59:49  esta por cargarse
+[2024-01-11 12:45:49 >> INFO    ] el archivo es un txt
+[2024-01-11 12:45:49 >> INFO    ] cargando archivo de texto
+[2024-01-11 12:45:56 >> INFO    ] Creacion Tabla temporal
+[2024-01-11 12:46:17 >> INFO    ] Insercion Tabla destino DW
+[2024-01-11 12:46:17 >> INFO    ] Base '4_CL26_1FACT_MV_Enero_24_UNICUENTA_TCON_20240110.csv' del 2024-01-10 10:59:49  recien cargada [ToSQL]
+[2024-01-11 12:46:17 >> INFO    ] Tiempo total de ejecucion: 28.767760515213013 de 2024-01-10 10:59:49 - 4_CL26_1FACT_MV_Enero_24_UNICUENTA_TCON_20240110.csv
+[2024-01-11 12:46:17 >> INFO    ]  archivo a cargar2024-01-10 10:59:47 - 4_CL1_BLOQANT_MV_Febrero_24_UNICUENTA_TCON_20240110.csv
+[2024-01-11 12:46:17 >> INFO    ] La base '4_CL1_BLOQANT_MV_Febrero_24_UNICUENTA_TCON_20240110.csv' del 2024-01-10 10:59:47  esta por cargarse
+[2024-01-11 12:46:17 >> INFO    ] el archivo es un txt
+[2024-01-11 12:46:17 >> INFO    ] cargando archivo de texto
+[2024-01-11 12:46:24 >> INFO    ] Creacion Tabla temporal
+[2024-01-11 12:46:27 >> INFO    ] Insercion Tabla destino DW
+[2024-01-11 12:46:28 >> INFO    ] Base '4_CL1_BLOQANT_MV_Febrero_24_UNICUENTA_TCON_20240110.csv' del 2024-01-10 10:59:47  recien cargada [ToSQL]
+[2024-01-11 12:46:28 >> INFO    ] Tiempo total de ejecucion: 10.820172548294067 de 2024-01-10 10:59:47 - 4_CL1_BLOQANT_MV_Febrero_24_UNICUENTA_TCON_20240110.csv
+[2024-01-11 12:46:28 >> INFO    ]  archivo a cargar2024-01-10 15:06:41 - 3_CL1_1FACT_FJ_Febrero_24_UNICUENTA_TCON_20240110.csv
+[2024-01-11 12:46:28 >> INFO    ] La base '3_CL1_1FACT_FJ_Febrero_24_UNICUENTA_TCON_20240110.csv' del 2024-01-10 15:06:41  esta por cargarse
+[2024-01-11 12:46:28 >> INFO    ] el archivo es un txt
+[2024-01-11 12:46:28 >> INFO    ] cargando archivo de texto
+[2024-01-11 12:46:35 >> INFO    ] Creacion Tabla temporal
+[2024-01-11 12:46:39 >> INFO    ] Insercion Tabla destino DW
+[2024-01-11 12:46:39 >> INFO    ] Base '3_CL1_1FACT_FJ_Febrero_24_UNICUENTA_TCON_20240110.csv' del 2024-01-10 15:06:41  recien cargada [ToSQL]
+[2024-01-11 12:46:39 >> INFO    ] Tiempo total de ejecucion: 11.200465679168701 de 2024-01-10 15:06:41 - 3_CL1_1FACT_FJ_Febrero_24_UNICUENTA_TCON_20240110.csv
+[2024-01-11 12:46:39 >> INFO    ]  archivo a cargar2024-01-10 10:59:48 - 4_CL23_BLOQANT_MV_Enero_24_UNICUENTA_TCON_20240110.csv
+[2024-01-11 12:46:39 >> INFO    ] La base '4_CL23_BLOQANT_MV_Enero_24_UNICUENTA_TCON_20240110.csv' del 2024-01-10 10:59:48  esta por cargarse
+[2024-01-11 12:46:39 >> INFO    ] el archivo es un txt
+[2024-01-11 12:46:39 >> INFO    ] cargando archivo de texto
+[2024-01-11 12:46:46 >> INFO    ] Creacion Tabla temporal
+[2024-01-11 12:46:49 >> INFO    ] Insercion Tabla destino DW
+[2024-01-11 12:46:50 >> INFO    ] Base '4_CL23_BLOQANT_MV_Enero_24_UNICUENTA_TCON_20240110.csv' del 2024-01-10 10:59:48  recien cargada [ToSQL]
+[2024-01-11 12:46:50 >> INFO    ] Tiempo total de ejecucion: 10.827526569366455 de 2024-01-10 10:59:48 - 4_CL23_BLOQANT_MV_Enero_24_UNICUENTA_TCON_20240110.csv
