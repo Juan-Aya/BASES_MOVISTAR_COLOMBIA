@@ -59,6 +59,30 @@
        "formatos":[],
        "columnas_sin_espacio" : [],
        "cruze":["1","CUENTA_FS","1"]
-      }
+      },
+      "archivo6":{
+        "varibles":[["HCON_Desasignacion_Unicuenta"],"desasignacion_movistar_colombia_ciclos","Z:\\WORKFORCE\\02. Workforce\\WFM_BASES_OUTBOUND\\CAMPANAS\\MOVISTAR_CARTERA_COLOMBIA\\MOVISTAR_CARTERA_COLOMBIA_B2C\\CICLOS\\DESASIGNACION"],
+        "sheets":["None"],
+        "opcion_path":["2","~"],
+        "opcion_cargue_tabla":1,
+        "asignacion":0,
+        "columnas":[],
+        "fechas":["FECHA_DESASIGNACION"],
+        "formatos":[],
+        "columnas_sin_espacio" : [],
+        "cruze":["","",""]
+       },
+       "archivo7":{
+         "varibles":[["ACT_BASE_DATOS_DE_CONTACTO"],"muestra_movistar_colombia_ciclos","Z:\\WORKFORCE\\02. Workforce\\WFM_BASES_OUTBOUND\\CAMPANAS\\MOVISTAR_CARTERA_COLOMBIA\\MOVISTAR_CARTERA_COLOMBIA_B2C\\CICLOS\\MAESTRA"],
+         "sheets":["None"],
+         "opcion_path":["2","|"],
+         "opcion_cargue_tabla":1,
+         "asignacion":0,
+         "columnas":[],
+         "fechas":["FECHA_CEL_1","FECHA_CEL_2","FECHA_CEL_3","FECHA_CEL_4","FECHA_CEL_5","FECHA_TEL_1","FECHA_TEL_2","FECHA_TEL_3","FECHA_TEL_4","FECHA_TEL_5","FECHA_EMAIL_1","FECHA_EMAIL_2","FECHA_EMAIL_3","FECHA_EMAIL_4","FECHA_DIR_1","FECHA_DIR_2","FECHA_DIR_3","FECHA_DIR_4","FECHA_DIR_5","FECHA_DE_AUTORIZACION"],
+         "formatos":[],
+         "columnas_sin_espacio" : [],
+         "cruze":["2","NUM_IDENT","2"]
+        }
  }
 }

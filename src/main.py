@@ -12,6 +12,7 @@ archivos = configuracion["ejecuciones"].keys()
 coleccion = configuracion["ejecuciones"]
 
 # Iterar las rutas para poceder hacer el proceso de cada una de las rutas 
+
 for i in range(len(list(archivos))):
     key1=list(archivos)[i].strip("'")
     
@@ -45,4 +46,3 @@ for i in range(len(list(archivos))):
     if __name__ == '__main__':
         # Ejecucion de función primaria 
         scan_folder(path,nombre_tabla,nombre_archivo,dic_fechas,dic_formatos,dic_hojas,separador, cargue_tabla, asignacion, columnas_tabla, columnas_sin_espacio,cruze)
-

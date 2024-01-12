@@ -103,8 +103,10 @@ def toSqlTxt(path,nombre_tabla,file_, dic_fechas, dic_formatos, separador, colum
     logging.info('Lectura archivo')
     print(path)
     print(file_)
-    if len(columnas_tabla)==0:
+    if len(columnas_tabla)==0 and nombre_tabla != "muestra_movistar_colombia_ciclos":
         df = dd.read_csv(path+"/"+file_[22:],sep = separador,dtype=str, index_col=False)
+    elif nombre_tabla == "muestra_movistar_colombia_ciclos":
+        df = dd.read_csv(path+"/"+file_[22:], sep=separador, dtype=str, index_col=False, encoding='latin1',on_bad_lines="skip" ) 
     else:
         df = dd.read_csv(path+"/"+file_[22:],sep = separador,dtype=str, index_col=False, names=columnas_tabla, encoding='latin-1')
     print("dataframe juan: ",df)
@@ -118,14 +120,19 @@ def toSqlTxt(path,nombre_tabla,file_, dic_fechas, dic_formatos, separador, colum
     df.columns = df.columns.str.upper()
     connection, cdn_connection, engine, bbdd_or = mysql_connection()
     print("Cantidad antes de filtrar: ", len(df))
-    Cruze = cruze[0]
-    if Cruze == "1":
+    if cruze[0] == "1":
         consulta = text("SELECT DISTINCT CUENTA FROM tb_asignacion_movistar_colombia_ciclos WHERE MONTH(FEC_ASIGNACION) = MONTH(CURDATE());")
         resultado = connection.execute(consulta)  # Utiliza 'connection' en lugar de 'engine'
         dfasg = pd.DataFrame(resultado)
         # dfasg = dd.from_pandas(resultado, npartitions=1)
         # print(cruze[1])
         df = df[df[cruze[1]].isin(dfasg["CUENTA"])]
+    elif cruze[0] == "2":
+        consulta = text("SELECT DISTINCT NUM_IDENT FROM tb_asignacion_movistar_colombia_ciclos WHERE MONTH(FEC_ASIGNACION) = MONTH(CURDATE());")
+        resultado = connection.execute(consulta)  # Utiliza 'connection' en lugar de 'engine'
+        dfasg = pd.DataFrame(resultado)
+        df = df[df[cruze[1]].isin(dfasg["NUM_IDENT"])]
+
     print("Cantidad despues: ",len(df))  
     print(dic_fechas)
     print(df.columns)
@@ -295,6 +302,10 @@ def check_and_add(path,nombre_tabla,file, dic_fechas,dic_formatos,dic_hojas,sepa
     logs.append(file) # Log archivo
     with open(LOADED_FILES, "w") as f:
             f.write(f"\n".join(logs))
+    if cruze[2] == "2":
+        connection, cdn_connection, engine, bbdd_or = mysql_connection()
+        connection.execute(text(f"TRUNCATE tb_{nombre_tabla} ;"))
+        print("Ejecucion Trucate: ",nombre_tabla) 
     try:
         nombre, extension = os.path.splitext(file) # Obtener el nombre archivo y extención
         print(extension)
@@ -330,12 +341,11 @@ def scan_folder(path,nombre_tabla,nombre_archivo,dic_fechas,dic_formatos,dic_hoj
             for file in file_to_load: # interar los archivos para el cargue
                 print("cargando",file)
                 # validacion y extandarización para el cargue de los archivos 
-                check_and_add(path,nombre_tabla,file, dic_fechas,dic_formatos,dic_hojas,separador, cargue_tabla, asignacion, nombre_archivo, columnas_tabla, columnas_sin_espacio,cruze)   
+                check_and_add(path,nombre_tabla,file, dic_fechas,dic_formatos,dic_hojas,separador, cargue_tabla, asignacion, nombre_archivo, columnas_tabla, columnas_sin_espacio,cruze) 
         else:
             if hora == '08:00':
                 # mesaje en caso de que no se encuentra la ruta deseada
                 send(f"No ha habido cargue de la base {nombre_tabla} del {anio}-{mes}-{dia}") 
             logging.getLogger("user").info(f"no existe la ruta")
-         
     except Exception as e:
         print(e)
